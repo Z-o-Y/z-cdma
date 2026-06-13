@@ -1,0 +1,33 @@
+# Local domain capabilities
+domains/
+skills_local/
+knowledge/
+
+# Local content production
+content_projects/
+assets_index/
+publishing_local/
+outputs/
+renders/
+tmp/
+
+# Large media and editing assets
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mp3
+*.wav
+*.aac
+*.flac
+*.prproj
+*.psd
+*.aep
+*.zip
+*.7z
+*.rar
+
+# Local system files
+.DS_Store
+Thumbs.db
+desktop.ini
