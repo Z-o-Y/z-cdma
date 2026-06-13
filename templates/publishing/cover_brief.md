@@ -1,19 +1,15 @@
 # Cover Brief
 
-## Platform
+## Visual Concept
 
-## Title
+## Required Text
 
-## Description/Body
+## Format And Safe Area
 
-## Tags
+## Source Assets
 
-## Cover
+## Rights Notes
 
-## Publish Time
+## Export Path
 
-## Publish URL
-
-## Data Observation Time
-
-## Key Feedback
+## Open Questions

@@ -1,6 +1,10 @@
-# Platform Publish
+# Platform Publish Record
 
 ## Platform
+
+## Final Asset Path
+
+## Render Version
 
 ## Title
 
@@ -8,9 +12,11 @@
 
 ## Tags
 
-## Cover
+## Cover Path
 
-## Publish Time
+## Scheduled Time
+
+## Published Time
 
 ## Publish URL
 

@@ -1,19 +1,19 @@
-# Review
+# Publishing Review
 
-## Platform
+## Observation Time
 
-## Title
+## Metrics Snapshot
 
-## Description/Body
+## Comment Notes
 
-## Tags
+## What Worked
 
-## Cover
+## What Did Not Work
 
-## Publish Time
+## Lessons
 
-## Publish URL
+## Reusable Knowledge
 
-## Data Observation Time
+## Promotion Candidates
 
-## Key Feedback
+## Next Experiment

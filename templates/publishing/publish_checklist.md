@@ -1,19 +1,19 @@
 # Publish Checklist
 
-## Platform
+## Final Asset Path
 
-## Title
+## Render Version
 
-## Description/Body
+## Title Checked
 
-## Tags
+## Description/Body Checked
 
-## Cover
+## Tags Checked
 
-## Publish Time
+## Cover Checked
 
-## Publish URL
+## Rights Checked
 
-## Data Observation Time
+## Upload/Schedule Status
 
-## Key Feedback
+## Final Review Notes

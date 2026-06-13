@@ -1,19 +1,15 @@
 # Title Options
 
-## Platform
+## Option
 
-## Title
+## Target Platform
 
-## Description/Body
+## Rationale
 
-## Tags
+## Expected Reader Promise
 
-## Cover
+## Risk
 
-## Publish Time
+## Selected Title
 
-## Publish URL
-
-## Data Observation Time
-
-## Key Feedback
+## Selection Reason
