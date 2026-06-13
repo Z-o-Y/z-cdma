@@ -8,7 +8,8 @@ Promote only reviewed knowledge that has durable value beyond the immediate task
 
 - Promotion happens only after publishing review and human confirmation.
 - Do not promote drafts, unverified assumptions, one-off preferences, or ordinary task notes.
-- Promotion candidates may be collected earlier, but they remain candidates until reviewed.
+- Useful observations may be collected earlier as raw activity logs, review notes, or structured memory, but they are not durable promotion memory.
+- Promotion files are generated only during or after review, and require human confirmation before entering local long-term memory or framework candidates.
 
 ## Destinations
 

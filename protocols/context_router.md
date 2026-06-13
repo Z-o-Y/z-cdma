@@ -28,4 +28,5 @@ Route every content task through the smallest reliable context set. The router k
 - Update digest files when active context has changed enough that future agents need a compressed view.
 - Update status files when task state, stage, blockers, trusted artifacts, or next steps change.
 - Update handoff files when continuity between agents or sessions would otherwise be lost.
-- Add promotion candidates only after review; do not promote ordinary working notes directly into durable framework knowledge.
+- Record early promotion observations in raw activity logs, review notes, or structured memory when they are useful for later review.
+- Create entries under `promotion_after_review/` only after the review stage; do not promote ordinary working notes directly into durable framework knowledge.
