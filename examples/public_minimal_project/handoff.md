@@ -1,32 +1,24 @@
 # Handoff
 
 ## Current State
+This fictional example project has a brief and is ready for core idea planning.
 
-The project has a public-safe topic, basic scope, and content brief. No production assets, real user data, private workspace paths, or account-specific publishing details are included.
+## Trusted Artifacts
+- project_manifest.md
+- brief.md
+- status.md
 
 ## Recent Decisions
-
-- Use a generic study desk topic.
-- Keep recommendations low-cost and broadly applicable.
-- Frame the output as practical organization guidance, not productivity or health advice.
+The example stays generic, public-safe, and focused on desk organization for study.
 
 ## User Preferences
-
-- Keep the example fictional.
-- Use plain language.
-- Avoid private project details and real production data.
+No real user preferences are included in this public example.
 
 ## Known Risks
+Avoid adding private paths, account details, or real production data.
 
-- The advice could sound like a guarantee of better focus if phrased too strongly.
-- The example should not imply that a specific product, brand, or room setup is required.
-
-## Next Step
-
-Create a short outline or script plan from the brief.
+## Next Suggested Step
+Use topic-planning or script-planning only as a demonstration.
 
 ## Do Not Repeat
-
-- Do not add private paths, credentials, account names, or real project data.
-- Do not make medical, psychological, or academic performance claims.
-- Do not introduce brand-specific recommendations.
+Do not add real credentials, private content, or domain-specific research material.

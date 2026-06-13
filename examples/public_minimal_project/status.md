@@ -1,13 +1,16 @@
 # Status
 
 ## Current Stage
+00_topic
 
-Brief complete. Ready for outline or script planning.
+## Trusted Artifacts
+- brief.md
+
+## Open Questions
+None for this minimal example.
 
 ## Next Action
+Draft the core idea for the example project.
 
-Draft a simple three-part structure:
-
-1. Clear the study surface.
-2. Place only active study tools within reach.
-3. Create a reset habit for the end of each session.
+## Last Updated
+Example only
