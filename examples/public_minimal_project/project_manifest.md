@@ -1,19 +1,19 @@
-# Project Manifest
+# 项目清单
 
-## Project ID
+## 项目 ID
 public-minimal-desk-focus
 
-## Title
-How to organize a desk for focused study
+## 标题
+如何整理书桌，让学习更容易进入专注状态
 
-## Platforms
-Example platform
+## 平台
+示例平台
 
-## Domain
-General productivity
+## 领域
+通用效率
 
-## Current Stage
+## 当前阶段
 00_topic
 
-## Created At
-Example only
+## 创建时间
+仅作示例

@@ -1,18 +1,18 @@
-# Collaboration
+# 协作
 
-## When To Enable
+## 何时启用
 
-Enable this module when a content project is handled by multiple people, multiple Agents, or a rotating mix of both. It is useful when responsibility, handoff timing, or change history would otherwise become unclear.
+当一个内容项目由多人、多个 Agent，或两者轮换处理时，启用此模块。它适用于责任、交接时间或变更历史可能变得不清晰的情况。
 
-## Files Added
+## 新增文件
 
-- `change_log.md`: A dated record of meaningful project changes, decisions, and handoffs.
-- `roles.md`: A current map of contributors, responsibilities, review expectations, and decision ownership.
+- `change_log.md`：按日期记录有意义的项目变更、决策和交接。
+- `roles.md`：记录当前贡献者、职责、审查预期和决策归属。
 
-## How It Changes Context Routing
+## 对上下文路由的影响
 
-Context routing should check `roles.md` before assigning work and should read recent entries in `change_log.md` before changing project direction. Agents should preserve role boundaries, note ownership assumptions, and append important changes so the next contributor can reconstruct the project state.
+上下文路由在分配工作前应检查 `roles.md`，在改变项目方向前应读取 `change_log.md` 的近期记录。Agent 应保留角色边界，记录归属假设，并追加重要变更，以便下一位贡献者重建项目状态。
 
-## How To Disable
+## 如何停用
 
-Stop updating the collaboration records once the project returns to a single owner. Keep the final `change_log.md` and `roles.md` as historical notes, or archive them with the project if they are no longer needed for routing.
+当项目重新回到单一负责人时，停止更新协作记录。将最终版 `change_log.md` 和 `roles.md` 作为历史记录保留；如果路由不再需要，也可以随项目归档。

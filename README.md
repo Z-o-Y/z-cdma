@@ -1,16 +1,18 @@
 # z-cdma
 
-`z-cdma` is a general self-media content creation framework for Agent-assisted workflows.
+`z-cdma` 是一个面向 Agent 协作的通用自媒体内容创作框架。
 
-It provides public framework assets for content ideation, research material organization, argument shaping, script planning, storyboard planning, production packages, publishing preparation, review, Agent memory, and handoff.
+项目主语言为中文（`zh-CN`）。公共框架材料、模板、协议和通用技能说明默认使用中文编写。
 
-## Public vs Local
+它提供一套可公开复用的框架资产，用于选题构思、资料整理、论证成型、脚本规划、分镜规划、生产包、发布准备、复盘、Agent 记忆和交接。
 
-The same directory can be used as both a public framework repository and a local content workspace.
+## 公共框架与本地工作区
 
-Public framework paths are listed in `PUBLIC_MANIFEST.md`.
+同一个目录既可以作为公共框架仓库，也可以作为本地内容工作区。
 
-Local domain capabilities and content projects are ignored by Git:
+公共框架路径以 `PUBLIC_MANIFEST.md` 为准。
+
+本地域能力和内容项目会被 Git 忽略：
 
 - domains/
 - skills_local/
@@ -22,16 +24,16 @@ Local domain capabilities and content projects are ignored by Git:
 - renders/
 - tmp/
 
-## Quick Start
+## 快速开始
 
-1. Clone or copy this repository.
-2. Use `templates/content_project/` to create a local project under `content_projects/`.
-3. Use `skills/common/context-router/` before content tasks to choose context.
-4. Keep real production content in ignored local directories.
-5. Run `tools/validate-public-boundary.ps1` before publishing.
+1. 克隆或复制本仓库。
+2. 使用 `templates/content_project/` 在 `content_projects/` 下创建本地项目。
+3. 开始内容任务前，先使用 `skills/common/context-router/` 选择上下文。
+4. 将真实生产内容保存在被忽略的本地目录中。
+5. 发布前运行 `tools/validate-public-boundary.ps1`。
 
-## Non-Goals
+## 非目标
 
-- This repository does not publish concrete content projects.
-- This repository does not publish private domain knowledge.
-- This repository does not store video files, audio files, editing projects, credentials, or account-specific platform strategies.
+- 本仓库不发布具体内容项目。
+- 本仓库不发布私有领域知识。
+- 本仓库不保存视频、音频、剪辑工程、凭据或账号级平台策略。

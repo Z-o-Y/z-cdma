@@ -1,14 +1,14 @@
-# Public Minimal Project Example
+# 公开最小项目示例
 
-This folder is a fictional minimal content project example for `z-cdma`.
+此文件夹是 `z-cdma` 的虚构最小内容项目示例。
 
-It shows how a small public-safe project can describe its topic, brief, status, and handoff without including private paths, account details, credentials, platform-specific strategy, or real production data.
+它展示一个适合公开的小项目如何描述主题、简报、状态和交接，同时不包含私有路径、账号细节、凭据、平台专用策略或真实生产数据。
 
-Example topic: How to organize a desk for focused study.
+示例主题：如何整理书桌，让学习更容易进入专注状态。
 
-## Files
+## 文件
 
-- `project_manifest.md`: Basic project identity and scope.
-- `brief.md`: Goal, audience, format, promise, and boundaries.
-- `status.md`: Current stage and next action.
-- `handoff.md`: Current state, decisions, preferences, risks, next step, and do-not-repeat notes.
+- `project_manifest.md`：项目基础身份和范围。
+- `brief.md`：目标、受众、形式、承诺和边界。
+- `status.md`：当前阶段和下一步行动。
+- `handoff.md`：当前状态、决策、偏好、风险、下一步和不要重复的记录。

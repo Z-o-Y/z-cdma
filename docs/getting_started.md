@@ -1,32 +1,31 @@
-# Getting Started
+# 快速上手
 
-`z-cdma` is a general self-media content creation framework for agent-assisted workflows. One directory can serve two roles at the same time:
+`z-cdma` 是一个面向 Agent 协作流程的通用自媒体内容创作框架。项目主语言为中文（`zh-CN`）。同一个目录可以同时承担两种角色：
 
-- A public framework repository, containing reusable protocols, templates, common skills, examples, tools, and docs.
-- A local content workspace, containing private domains, project drafts, media indexes, outputs, renders, and publishing notes.
+- 公共框架仓库：包含可复用的协议、模板、通用技能、示例、工具和文档。
+- 本地内容工作区：包含私有领域、项目草稿、媒体索引、输出、渲染文件和发布记录。
 
-Use `PUBLIC_MANIFEST.md` as the authority for this boundary. Public framework paths may be published. Local-only paths are ignored by Git and should stay private.
+以 `PUBLIC_MANIFEST.md` 作为边界依据。公共框架路径可以发布；仅限本地的路径会被 Git 忽略，并应保持私有。
 
-## Create a Local Project
+## 创建本地项目
 
-Create each real content project under `content_projects/` from the public project template:
+每个真实内容项目都应基于公共项目模板创建在 `content_projects/` 下：
 
 ```powershell
 New-Item -ItemType Directory -Force content_projects
 Copy-Item -Recurse templates/content_project content_projects/my-project
 ```
 
-Replace `my-project` with a stable project id. Keep drafts, research notes, scripts, storyboards, handoffs, and review notes inside that project folder.
+将 `my-project` 替换为稳定的项目 ID。草稿、研究笔记、脚本、分镜、交接记录和复盘记录都应放在该项目文件夹内。
 
-## Route Context First
+## 先路由上下文
 
-Before starting content work, use `skills/common/context-router/`. The router helps decide which project, domain context, memory, and workflow stage should be loaded before a task begins.
+开始内容工作前，先使用 `skills/common/context-router/`。路由器会帮助判断任务开始前应加载哪个项目、领域上下文、记忆和工作流阶段。
 
-This is especially important when the same workspace contains multiple local projects or private domain packs.
+当同一个工作区包含多个本地项目或私有领域包时，这一点尤其重要。
 
-## Keep Projects Private
+## 保持项目私有
 
-Content projects are local production work. Do not add `content_projects/` to Git, and do not publish scripts, research notes, private references, platform strategy, credentials, or account-specific material.
+内容项目属于本地生产工作。不要将 `content_projects/` 加入 Git，也不要发布脚本、研究笔记、私有参考资料、平台策略、凭据或账号级材料。
 
-The framework includes video workflow templates, including production package, storyboard, shot list, editing checklist, render index, and publishing templates. Use those templates for planning and handoff, but keep heavy files external or in ignored local paths such as `outputs/`, `renders/`, or your editing/storage system.
-
+框架包含视频工作流模板，包括生产包、分镜、镜头清单、剪辑检查表、渲染索引和发布模板。可用这些模板进行规划和交接，但大文件应放在外部存储、`outputs/`、`renders/` 等被忽略的本地路径，或你的剪辑/存储系统中。

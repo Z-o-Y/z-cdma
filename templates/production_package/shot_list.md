@@ -1,21 +1,21 @@
-# Shot List
+# 镜头清单
 
-## Project
+## 项目
 
-## Version
+## 版本
 
-## Shot ID
+## 镜头 ID
 
-## Scene
+## 场景
 
-## Purpose
+## 目的
 
-## Framing
+## 构图
 
-## Movement
+## 运动
 
-## Required Assets
+## 所需资产
 
-## Audio
+## 音频
 
-## Status
+## 状态

@@ -1,7 +1,7 @@
-# Core Idea
+# 核心想法
 
-## Input
+## 输入
 
-## Current Output
+## 当前输出
 
-## Open Questions
+## 开放问题

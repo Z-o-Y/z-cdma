@@ -6,20 +6,20 @@ agent_agnostic: true
 description:
 ---
 
-# Purpose
+# 目的
 
-# When To Use
+# 何时使用
 
-# Inputs
+# 输入
 
-# Context Routing
+# 上下文路由
 
-# Workflow
+# 工作流
 
-# Outputs
+# 输出
 
-# Memory Writeback
+# 记忆写回
 
-# Quality Checklist
+# 质量检查清单
 
-# Agent Compatibility
+# Agent 兼容性

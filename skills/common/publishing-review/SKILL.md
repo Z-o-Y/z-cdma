@@ -3,55 +3,55 @@ name: publishing-review
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Record publishing data, comments, review notes, and promotion candidates using generic review structure.
+description: 使用通用复盘结构记录发布数据、评论、复盘记录和提升候选。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to capture what was published, what happened after publishing, and what should be reviewed or promoted later.
+使用此技能记录发布了什么、发布后发生了什么，以及后续应复盘或提升什么。
 
-# When To Use
+# 何时使用
 
-Use it after publishing, after collecting comments or performance notes, or when preparing post-publish review records.
+在发布后、收集评论或表现记录后，或准备发布后复盘记录时使用。
 
-# Inputs
+# 输入
 
-- Publish date and output identifier.
-- Final publish materials.
-- Comments, review notes, or observed results.
-- Generic review template.
+- 发布日期和输出标识。
+- 最终发布材料。
+- 评论、复盘记录或观察结果。
+- 通用复盘模板。
 
-# Context Routing
+# 上下文路由
 
-Read the public generic review template and the local project publish record. Keep generic review fields separate from local platform or account strategy.
+读取公共通用复盘模板和本地项目发布记录。保持通用复盘字段与本地平台或账号策略分离。
 
-# Workflow
+# 工作流
 
-1. Record the published output and publish materials.
-2. Capture comments, observations, and review notes.
-3. Separate factual publishing data from interpretation.
-4. Identify reusable lessons and promotion candidates for later review.
-5. Mark any account-specific strategy questions for local handling outside the public template.
+1. 记录已发布输出和发布材料。
+2. 捕捉评论、观察和复盘记录。
+3. 将事实性发布数据与解读分开。
+4. 识别可复用经验和后续复盘用的提升候选。
+5. 标记所有账号专用策略问题，并在公共模板之外本地处理。
 
-# Outputs
+# 输出
 
-- Publishing record.
-- Comment and review note summary.
-- Generic lessons learned.
-- Promotion candidates for later review.
-- Local strategy flags, if any.
+- 发布记录。
+- 评论和复盘记录摘要。
+- 通用经验。
+- 供后续复盘的提升候选。
+- 如有，本地策略标记。
 
-# Memory Writeback
+# 记忆写回
 
-Append publishing activity, review observations, and promotion candidates to local project memory or raw logs as appropriate.
+按需将发布活动、复盘观察和提升候选追加到本地项目记忆或原始日志。
 
-# Quality Checklist
+# 质量检查清单
 
-- Publishing data is recorded separately from interpretation.
-- Public generic review template is not mixed with local platform or account strategy.
-- Comments and review notes are attributable to the relevant output.
-- Promotion candidates are clearly marked as candidates, not accepted memory.
+- 发布数据与解读分开记录。
+- 公共通用复盘模板不与本地平台或账号策略混合。
+- 评论和复盘记录可归因到相关输出。
+- 提升候选被清楚标记为候选，而不是已接受记忆。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. Any assistant or human reviewer can use it to maintain structured post-publish records.
+此技能与 Agent 无关。任何助手或人工复盘者都可以用它维护结构化发布后记录。

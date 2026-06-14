@@ -1,13 +1,13 @@
-# Activity Log
+# 活动日志
 
 ## YYYY-MM-DD
 
-### Type
+### 类型
 
-### Stage
+### 阶段
 
-### Action
+### 行动
 
-### Impact
+### 影响
 
-### Digest Update Needed
+### 是否需要更新摘要

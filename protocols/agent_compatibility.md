@@ -1,24 +1,24 @@
-# Agent Compatibility Protocol
+# Agent 兼容协议
 
-## Purpose
+## 目的
 
-Keep z-cdma usable by Codex, Claude, Gemini, and other agents without binding core workflow logic to one tool environment.
+保持 z-cdma 可被 Codex、Claude、Gemini 和其他 Agent 使用，同时不把核心工作流逻辑绑定到某一个工具环境。
 
-## Core Rules
+## 核心规则
 
-- Use Markdown-first protocols, manifests, briefs, status files, handoffs, and memory records.
-- Keep skill use agent-agnostic: describe the workflow, inputs, outputs, and review gates before tool-specific mechanics.
-- Codex, Claude, Gemini, and other agents should follow the same files and protocols for context routing, stage gates, memory, collaboration, and conflict resolution.
-- Tool-specific instructions belong in compatibility notes, not core logic.
+- 优先使用 Markdown 协议、清单、简报、状态文件、交接记录和记忆记录。
+- 技能使用应保持 Agent 无关：先描述工作流、输入、输出和审查关口，再处理工具专用机制。
+- Codex、Claude、Gemini 和其他 Agent 应遵循相同的文件和协议来处理上下文路由、阶段关口、记忆、协作和冲突解决。
+- 工具专用说明应放在兼容说明中，而不是放进核心逻辑。
 
-## Compatibility Notes
+## 兼容说明
 
-- Compatibility notes may explain command syntax, available tools, path handling, browser behavior, or local app details for a specific agent.
-- Compatibility notes must not change protocol priority, memory scope, promotion rules, or public/private boundaries.
-- When a tool cannot perform a protocol step directly, the agent should use the nearest safe equivalent and record any limitation that affects the task.
+- 兼容说明可以解释某个 Agent 的命令语法、可用工具、路径处理、浏览器行为或本地应用细节。
+- 兼容说明不得改变协议优先级、记忆范围、提升规则或公共/私有边界。
+- 当某个工具无法直接执行协议步骤时，Agent 应使用最接近且安全的等价方式，并记录会影响任务的限制。
 
-## Portability Rules
+## 可移植性规则
 
-- Prefer plain Markdown, stable paths, and explicit artifact names.
-- Avoid hidden state that only one agent can read.
-- Keep public framework protocols independent from local-only content projects.
+- 优先使用纯 Markdown、稳定路径和明确的产物名称。
+- 避免只有某一个 Agent 能读取的隐藏状态。
+- 保持公共框架协议独立于仅限本地的内容项目。

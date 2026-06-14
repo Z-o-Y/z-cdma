@@ -1,35 +1,35 @@
-# Memory Layers Protocol
+# 记忆分层协议
 
-## Purpose
+## 目的
 
-Define how z-cdma stores working history, stable knowledge, active summaries, and promotion candidates without mixing public framework logic with local content workspace data.
+定义 z-cdma 如何存储工作历史、稳定知识、活动摘要和提升候选，同时避免把公共框架逻辑与本地内容工作区数据混在一起。
 
-## Layers
+## 层级
 
-- `raw`: append-only activity traces, human edits, agent actions, source notes, and audit evidence.
-- `structured`: stable project or domain knowledge organized for reuse.
-- `digest`: compressed active context for the current project, domain, or thread of work.
-- `promotion`: reviewed candidates that may become long-term knowledge, reusable skills, asset indexes, or public framework improvements.
-- `local long-term`: confirmed local knowledge that should remain outside public GitHub when it contains private domains, projects, assets, or operating details.
-- `framework candidate`: generic improvements that may be suitable for the public z-cdma framework after review.
+- `raw`：只追加的活动痕迹、人工编辑、Agent 行动、来源笔记和审计证据。
+- `structured`：为复用而组织的稳定项目或领域知识。
+- `digest`：当前项目、领域或工作线的压缩活动上下文。
+- `promotion`：经过审查、可能成为长期知识、可复用技能、资产索引或公共框架改进的候选内容。
+- `local long-term`：已确认的本地知识；当其中包含私有领域、项目、资产或运营细节时，应留在公开 GitHub 之外。
+- `framework candidate`：审查后可能适合进入公共 z-cdma 框架的通用改进。
 
-## Vertical Compression
+## 纵向压缩
 
-- Raw memory preserves evidence.
-- Structured memory extracts stable facts, practices, preferences, and decisions.
-- Digest memory compresses active context for fast routing.
-- Promotion memory separates reviewed candidates from ordinary work notes.
-- Long-term memory accepts only confirmed durable knowledge with clear scope.
+- 原始记忆保留证据。
+- 结构化记忆提取稳定事实、实践、偏好和决策。
+- 摘要记忆压缩活动上下文，便于快速路由。
+- 提升记忆将经过审查的候选内容与普通工作笔记分开。
+- 长期记忆只接收范围明确且已确认的持久知识。
 
-## Horizontal Categories
+## 横向类别
 
-- `content_knowledge`: facts, examples, source interpretations, domain positions, and reusable arguments.
-- `expression_style`: voice, tone, title style, hooks, pacing, phrases to use or avoid, and audience fit.
-- `production_method`: workflows, tools, prompts, editing patterns, asset conventions, and quality checks.
-- `operation_feedback`: publishing results, platform behavior, audience response, metrics, and review lessons.
+- `content_knowledge`：事实、示例、来源解读、领域立场和可复用论证。
+- `expression_style`：表达声音、语气、标题风格、钩子、节奏、应使用或避免的措辞，以及受众匹配。
+- `production_method`：工作流、工具、提示词、剪辑模式、资产规范和质量检查。
+- `operation_feedback`：发布结果、平台行为、受众反馈、指标和复盘经验。
 
-## Usage Rules
+## 使用规则
 
-- Keep local domain and project memory out of public framework files.
-- Prefer digest for active work and structured memory for stable reuse.
-- Return to raw memory only when evidence, conflicts, audit detail, or unclear human changes require it.
+- 本地域和项目记忆不得写入公共框架文件。
+- 活动工作优先使用摘要，稳定复用优先使用结构化记忆。
+- 只有在证据、冲突、审计细节或不清晰人工变更需要时，才回到原始记忆。

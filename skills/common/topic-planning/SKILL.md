@@ -3,57 +3,57 @@ name: topic-planning
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Define topic, audience, platform, format, boundaries, and planning assumptions for content work.
+description: 为内容工作定义主题、受众、平台、形式、边界和规划假设。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to turn a broad content idea into a bounded topic plan that later stages can use without guessing.
+使用此技能将宽泛内容想法转化为有边界的选题计划，让后续阶段无需猜测即可使用。
 
-# When To Use
+# 何时使用
 
-Use it before outlining, scripting, storyboard planning, production packaging, or platform adaptation.
+在大纲、脚本、分镜规划、生产打包或平台适配之前使用。
 
-# Inputs
+# 输入
 
-- Initial idea or assignment.
-- Intended audience.
-- Target platform or channel type.
-- Desired format, length, tone, and constraints.
-- Known exclusions or sensitive boundaries.
+- 初始想法或任务。
+- 目标受众。
+- 目标平台或频道类型。
+- 期望形式、长度、语气和约束。
+- 已知排除项或敏感边界。
 
-# Context Routing
+# 上下文路由
 
-Load the project brief and any local planning notes needed to avoid repeating prior decisions. Do not load production, publishing, or memory layers unless the task asks for them.
+加载项目简报，以及避免重复既有决策所需的本地规划记录。除非任务要求，否则不要加载生产、发布或记忆层。
 
-# Workflow
+# 工作流
 
-1. Restate the core topic in one clear sentence.
-2. Define the audience and what they should understand or do.
-3. Select platform and format assumptions.
-4. Set scope boundaries and exclusions.
-5. Identify required source, asset, or review needs.
-6. Produce a planning note for the next content stage.
+1. 用一句清晰的话重述核心主题。
+2. 定义受众，以及他们应理解或采取的行动。
+3. 选择平台和形式假设。
+4. 设定范围边界和排除项。
+5. 识别所需来源、资产或审查需求。
+6. 为下一内容阶段产出规划记录。
 
-# Outputs
+# 输出
 
-- Topic statement.
-- Audience and platform assumptions.
-- Format and length targets.
-- Scope boundaries.
-- Open questions and next-stage recommendation.
+- 主题陈述。
+- 受众和平台假设。
+- 形式和长度目标。
+- 范围边界。
+- 开放问题和下一阶段建议。
 
-# Memory Writeback
+# 记忆写回
 
-Record the selected topic direction, boundaries, assumptions, and unresolved questions in the raw activity log or project planning memory.
+在原始活动日志或项目规划记忆中记录选定主题方向、边界、假设和未解决问题。
 
-# Quality Checklist
+# 质量检查清单
 
-- Topic is specific enough to guide scripting.
-- Audience and platform are explicit.
-- Boundaries prevent scope drift.
-- Open questions are separated from decisions.
+- 主题足够具体，能指导脚本。
+- 受众和平台明确。
+- 边界能防止范围漂移。
+- 开放问题与决策分开。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It relies on structured planning notes and can be applied by any assistant or human collaborator.
+此技能与 Agent 无关。它依赖结构化规划记录，任何助手或人工协作者都可以应用。

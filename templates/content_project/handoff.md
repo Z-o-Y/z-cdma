@@ -1,13 +1,13 @@
-# Handoff
+# 交接
 
-## Current State
+## 当前状态
 
-## Recent Decisions
+## 近期决策
 
-## User Preferences
+## 用户偏好
 
-## Known Risks
+## 已知风险
 
-## Next Suggested Step
+## 建议下一步
 
-## Do Not Repeat
+## 不要重复

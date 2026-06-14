@@ -1,24 +1,24 @@
-# Handoff
+# 交接
 
-## Current State
-This fictional example project has a brief and is ready for core idea planning.
+## 当前状态
+这个虚构示例项目已经有简报，可以进入核心想法规划。
 
-## Trusted Artifacts
+## 可信产物
 - project_manifest.md
 - brief.md
 - status.md
 
-## Recent Decisions
-The example stays generic, public-safe, and focused on desk organization for study.
+## 近期决策
+示例保持通用、适合公开，并聚焦于学习书桌整理。
 
-## User Preferences
-No real user preferences are included in this public example.
+## 用户偏好
+此公开示例不包含真实用户偏好。
 
-## Known Risks
-Avoid adding private paths, account details, or real production data.
+## 已知风险
+避免加入私有路径、账号细节或真实生产数据。
 
-## Next Suggested Step
-Use topic-planning or script-planning only as a demonstration.
+## 建议下一步
+仅将 topic-planning 或 script-planning 用作演示。
 
-## Do Not Repeat
-Do not add real credentials, private content, or domain-specific research material.
+## 不要重复
+不要加入真实凭据、私有内容或领域专用研究材料。

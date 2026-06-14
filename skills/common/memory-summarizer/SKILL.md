@@ -3,54 +3,54 @@ name: memory-summarizer
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Compress raw and structured memory into a concise project digest.
+description: 将原始和结构化记忆压缩为简洁的项目摘要。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to summarize accumulated activity and structured memory into a digest that supports future work without requiring full log review.
+使用此技能将累积活动和结构化记忆总结为摘要，支持未来工作，而无需完整审查日志。
 
-# When To Use
+# 何时使用
 
-Use it after several task entries, before handoff, after publishing review, or when a project digest is stale.
+在已有多条任务记录后、交接前、发布复盘后，或项目摘要过期时使用。
 
-# Inputs
+# 输入
 
-- Raw activity logs.
-- Structured memory updates.
-- Current project status and handoff notes.
-- Existing digest, if present.
+- 原始活动日志。
+- 结构化记忆更新。
+- 当前项目状态和交接记录。
+- 现有摘要，如果存在。
 
-# Context Routing
+# 上下文路由
 
-Read only the relevant memory range, structured updates, and current digest. Avoid loading unrelated projects or account-level materials.
+只读取相关记忆范围、结构化更新和当前摘要。避免加载无关项目或账号级材料。
 
-# Workflow
+# 工作流
 
-1. Select the memory range to summarize.
-2. Extract durable decisions, current state, blockers, and next actions.
-3. Compress repeated activity into concise bullets.
-4. Preserve unresolved questions and review needs.
-5. Update the digest with date or version context.
+1. 选择要总结的记忆范围。
+2. 提取持久决策、当前状态、阻塞项和下一步行动。
+3. 将重复活动压缩为简洁要点。
+4. 保留未解决问题和审查需求。
+5. 使用日期或版本上下文更新摘要。
 
-# Outputs
+# 输出
 
-- Updated memory digest.
-- Current decisions and assumptions.
-- Blockers and open questions.
-- Recommended next actions.
+- 更新后的记忆摘要。
+- 当前决策和假设。
+- 阻塞项和开放问题。
+- 建议下一步行动。
 
-# Memory Writeback
+# 记忆写回
 
-Write the digest update and record the summarized range so later agents can trace what was compressed.
+写入摘要更新，并记录被总结的范围，便于后续 Agent 追踪压缩了哪些内容。
 
-# Quality Checklist
+# 质量检查清单
 
-- Digest is shorter than source logs.
-- Important decisions and blockers are preserved.
-- Uncertainty remains visible.
-- Summary range is recorded.
+- 摘要短于来源日志。
+- 重要决策和阻塞项得到保留。
+- 不确定性仍然可见。
+- 已记录摘要范围。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It works with plain text or structured memory records and does not require a specific assistant runtime.
+此技能与 Agent 无关。它适用于纯文本或结构化记忆记录，不要求特定助手运行时。

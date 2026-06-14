@@ -1,17 +1,17 @@
-# Tool Prompts
+# 工具提示词
 
-## Project
+## 项目
 
-## Tool
+## 工具
 
-## Task
+## 任务
 
-## Input Context
+## 输入上下文
 
-## Prompt
+## 提示词
 
-## Output Requirements
+## 输出要求
 
-## Review Criteria
+## 审查标准
 
-## Result Location
+## 结果位置

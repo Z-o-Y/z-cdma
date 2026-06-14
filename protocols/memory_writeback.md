@@ -1,27 +1,27 @@
-# Memory Writeback Protocol
+# 记忆写回协议
 
-## Purpose
+## 目的
 
-Write back only the memory needed to preserve continuity, evidence, and reusable learning while keeping public framework core files stable.
+只写回用于保持连续性、证据和可复用学习所需的记忆，同时保持公共框架核心文件稳定。
 
-## Writeback Order
+## 写回顺序
 
-- Write raw first for meaningful activity, decisions, source additions, human edits, artifact changes, and audit evidence.
-- Write structured memory for stable experience that has clear reuse value.
-- Write digest memory for active context that future sessions should load quickly.
-- Write status for current state, stage, trusted artifacts, blockers, and next actions.
-- Write handoff for continuity when another agent or future session needs to resume without rereading all raw material.
+- 对有意义的活动、决策、来源新增、人工编辑、产物变更和审计证据，先写原始记录。
+- 对具有明确复用价值的稳定经验，写入结构化记忆。
+- 对未来会话应快速加载的活动上下文，写入摘要记忆。
+- 对当前状态、阶段、可信产物、阻塞项和下一步，写入状态。
+- 当另一个 Agent 或未来会话需要在不重读全部原始材料的情况下继续工作时，写入交接。
 
-## Scope Rules
+## 范围规则
 
-- Ordinary content tasks must not write public framework core.
-- Local project, domain, asset, and operating details belong in local workspace memory.
-- Public framework edits require a generic framework need, review, and explicit intent.
-- If writeback scope is unclear, record a raw note and leave promotion or framework changes for review.
+- 普通内容任务不得写入公共框架核心。
+- 本地项目、领域、资产和运营细节应写入本地工作区记忆。
+- 公共框架编辑需要通用框架需求、审查和明确意图。
+- 如果写回范围不清，记录原始笔记，并将提升或框架变更留待审查。
 
-## Quality Rules
+## 质量规则
 
-- Write facts with source, scope, and confidence when possible.
-- Separate observations from decisions.
-- Keep status and handoff concise.
-- Do not duplicate large raw logs into structured memory or digest.
+- 尽量为事实写明来源、范围和置信度。
+- 将观察与决策分开。
+- 状态和交接应保持简洁。
+- 不要把大型原始日志重复写入结构化记忆或摘要。

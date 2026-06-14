@@ -1,32 +1,32 @@
-# Context Router Protocol
+# 上下文路由协议
 
-## Purpose
+## 目的
 
-Route every content task through the smallest reliable context set. The router keeps z-cdma usable as both a public framework repository and a local content workspace by separating public framework knowledge from local project and domain context.
+为每个内容任务选择最小且可靠的上下文集合。路由器通过分离公共框架知识与本地项目、领域上下文，让 z-cdma 同时适合作为公共框架仓库和本地内容工作区。
 
-## Read Order
+## 读取顺序
 
-1. Public framework manifest.
-2. Project manifest.
-3. Brief.
-4. Status.
-5. Handoff.
-6. Memory index.
-7. Memory digest.
+1. 公共框架清单。
+2. 项目清单。
+3. 简报。
+4. 状态。
+5. 交接。
+6. 记忆索引。
+7. 记忆摘要。
 
-## Expansion Rules
+## 扩展规则
 
-- Use structured memory for stable project knowledge that has been reviewed, reused, or confirmed across work sessions.
-- Use raw logs only for conflict checks, audit trails, or unclear human changes that cannot be resolved from status, handoff, digest, or structured memory.
-- Use domain memory only when the active task is relevant to that local domain.
-- Prefer the narrowest relevant memory path before loading broader framework context.
-- Stop expanding when the current task can be completed without increasing ambiguity or risk.
+- 对已经审查、复用或跨会话确认的稳定项目知识，使用结构化记忆。
+- 只有在冲突检查、审计追踪，或状态、交接、摘要、结构化记忆无法解释的人工变更场景中，才使用原始日志。
+- 只有当当前任务与本地域相关时，才使用领域记忆。
+- 在加载更宽泛的框架上下文前，优先选择最窄的相关记忆路径。
+- 当当前任务可以在不增加歧义或风险的情况下完成时，停止扩展上下文。
 
-## Writeback Rules
+## 写回规则
 
-- Record raw activity for meaningful work, decisions, and material state changes.
-- Update digest files when active context has changed enough that future agents need a compressed view.
-- Update status files when task state, stage, blockers, trusted artifacts, or next steps change.
-- Update handoff files when continuity between agents or sessions would otherwise be lost.
-- Record early promotion observations in raw activity logs, review notes, or structured memory when they are useful for later review.
-- Create entries under `promotion_after_review/` only after the review stage; do not promote ordinary working notes directly into durable framework knowledge.
+- 对有意义的工作、决策和材料状态变更记录原始活动。
+- 当活动上下文变化到未来 Agent 需要压缩视图时，更新摘要文件。
+- 当任务状态、阶段、阻塞、可信产物或下一步变化时，更新状态文件。
+- 当不更新就会丢失 Agent 或会话之间的连续性时，更新交接文件。
+- 当早期提升观察对后续审查有用时，将其记录在原始活动日志、复盘记录或结构化记忆中。
+- 只有在复盘阶段之后，才在 `promotion_after_review/` 下创建条目；不要把普通工作笔记直接提升为持久框架知识。

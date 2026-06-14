@@ -3,6 +3,11 @@ $ErrorActionPreference = "Stop"
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $root
 
+function ConvertFrom-Utf8Base64 {
+  param([string]$Text)
+  [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($Text))
+}
+
 $requiredPublic = @(
   "README.md",
   "CHANGELOG.md",
@@ -40,7 +45,7 @@ foreach ($path in $requiredPublic) {
 }
 
 if ($missing.Count -gt 0) {
-  Write-Host "Missing public paths:" -ForegroundColor Red
+  Write-Host (ConvertFrom-Utf8Base64 "57y65bCR5YWs5YWx6Lev5b6E77ya") -ForegroundColor Red
   $missing | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
   exit 1
 }
@@ -54,7 +59,7 @@ foreach ($path in $privatePaths) {
 }
 
 if ($trackedPrivate.Count -gt 0) {
-  Write-Host "Private paths are tracked by Git:" -ForegroundColor Red
+  Write-Host (ConvertFrom-Utf8Base64 "5Lul5LiL56eB5pyJ6Lev5b6E5bey6KKrIEdpdCDot5/ouKrvvJo=") -ForegroundColor Red
   $trackedPrivate | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
   exit 1
 }
@@ -69,9 +74,9 @@ foreach ($pattern in $mediaPatterns) {
 }
 
 if ($trackedMedia.Count -gt 0) {
-  Write-Host "Large/private media files are tracked by Git:" -ForegroundColor Red
+  Write-Host (ConvertFrom-Utf8Base64 "5Lul5LiL5aSn5Z6L5oiW56eB5pyJ5aqS5L2T5paH5Lu25bey6KKrIEdpdCDot5/ouKrvvJo=") -ForegroundColor Red
   $trackedMedia | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
   exit 1
 }
 
-Write-Host "z-cdma public boundary validation passed." -ForegroundColor Green
+Write-Host (ConvertFrom-Utf8Base64 "ei1jZG1hIOWFrOWFsei+ueeVjOagoemqjOmAmui/h+OAgg==") -ForegroundColor Green

@@ -1,17 +1,17 @@
-# Render Index
+# 渲染索引
 
-## Project
+## 项目
 
-## Version
+## 版本
 
-## Rough Cut External Path
+## 粗剪外部路径
 
-## Published Version External Path
+## 发布版本外部路径
 
-## Export Settings
+## 导出设置
 
-## Rendered At
+## 渲染时间
 
-## Review Status
+## 审查状态
 
-## Notes
+## 备注

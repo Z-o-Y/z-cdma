@@ -1,5 +1,5 @@
 # memory-promotion
 
-Creates post-review memory promotion candidates with evidence, scope, and pending status for possible durable reuse.
+在复盘后创建带有证据、范围和待定状态的记忆提升候选，用于可能的持久复用。
 
-Public/local boundary: promotion candidates should come from reviewed material. Private project facts remain local unless the review process explicitly approves a safe, reusable abstraction.
+公共/本地边界：提升候选应来自已审查材料。除非复盘流程明确批准安全、可复用的抽象，否则私有项目事实应保持本地。

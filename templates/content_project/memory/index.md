@@ -1,9 +1,9 @@
-# Memory Index
+# 记忆索引
 
-## Digest
+## 摘要
 
-## Raw Log
+## 原始日志
 
-## Structured Memory
+## 结构化记忆
 
-## Promotion Candidates
+## 提升候选

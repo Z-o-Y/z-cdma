@@ -1,19 +1,19 @@
-# Publishing Review
+# 发布复盘
 
-## Observation Time
+## 观察时间
 
-## Metrics Snapshot
+## 指标快照
 
-## Comment Notes
+## 评论记录
 
-## What Worked
+## 有效做法
 
-## What Did Not Work
+## 无效做法
 
-## Lessons
+## 经验
 
-## Reusable Knowledge
+## 可复用知识
 
-## Promotion Candidates
+## 提升候选
 
-## Next Experiment
+## 下一次实验

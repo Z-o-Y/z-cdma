@@ -1,16 +1,16 @@
-# Status
+# 状态
 
-## Current Stage
+## 当前阶段
 00_topic
 
-## Trusted Artifacts
+## 可信产物
 - brief.md
 
-## Open Questions
-None for this minimal example.
+## 开放问题
+此最小示例没有开放问题。
 
-## Next Action
-Draft the core idea for the example project.
+## 下一步行动
+为示例项目起草核心想法。
 
-## Last Updated
-Example only
+## 最后更新
+仅作示例

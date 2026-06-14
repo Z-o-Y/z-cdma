@@ -3,54 +3,54 @@ name: memory-writer
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Append raw activity and structured memory updates for content work.
+description: 为内容工作追加原始活动和结构化记忆更新。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to record what happened during a task in raw activity logs and structured memory update files.
+使用此技能在原始活动日志和结构化记忆更新文件中记录任务期间发生的事情。
 
-# When To Use
+# 何时使用
 
-Use it after meaningful project actions, decisions, status changes, reviews, or handoffs.
+在有意义的项目行动、决策、状态变化、复盘或交接之后使用。
 
-# Inputs
+# 输入
 
-- Task summary.
-- Files changed or consulted.
-- Decisions made.
-- Open questions.
-- Status or handoff changes.
+- 任务摘要。
+- 已变更或已查阅文件。
+- 已做决策。
+- 开放问题。
+- 状态或交接变化。
 
-# Context Routing
+# 上下文路由
 
-Read the relevant project memory index or current log target only. Do not search unrelated memory layers unless the task requires cross-project context.
+只读取相关项目记忆索引或当前日志目标。除非任务需要跨项目上下文，否则不要搜索无关记忆层。
 
-# Workflow
+# 工作流
 
-1. Identify the correct raw activity log.
-2. Append a concise factual activity entry.
-3. Create or update structured memory fields only when a durable decision, preference, or reusable fact was established.
-4. Keep observations separate from recommendations.
-5. Link memory entries to project status or handoff when relevant.
+1. 找到正确的原始活动日志。
+2. 追加简洁、事实化的活动条目。
+3. 只有在形成持久决策、偏好或可复用事实时，才创建或更新结构化记忆字段。
+4. 将观察与建议分开。
+5. 相关时，将记忆条目链接到项目状态或交接。
 
-# Outputs
+# 输出
 
-- Raw activity log entry.
-- Structured memory update, when warranted.
-- Open question list, when present.
+- 原始活动日志条目。
+- 必要时的结构化记忆更新。
+- 如有开放问题，输出开放问题清单。
 
-# Memory Writeback
+# 记忆写回
 
-This skill is the writeback step. Write factual entries, avoid invented context, and preserve uncertainty.
+此技能就是写回步骤。写入事实条目，避免发明上下文，并保留不确定性。
 
-# Quality Checklist
+# 质量检查清单
 
-- Activity entry says what changed and why.
-- Structured memory is only used for reusable information.
-- Open questions are not treated as decisions.
-- Private project details remain in local memory.
+- 活动条目说明发生了什么变化以及原因。
+- 结构化记忆只用于可复用信息。
+- 开放问题不会被当作决策。
+- 私有项目细节保留在本地记忆中。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It depends on plain structured records and can be followed by any assistant or human editor.
+此技能与 Agent 无关。它依赖普通结构化记录，可由任何助手或人工编辑者遵循。

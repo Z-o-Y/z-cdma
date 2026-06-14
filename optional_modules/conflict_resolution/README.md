@@ -1,18 +1,18 @@
-# Conflict Resolution
+# 冲突解决
 
-## When To Enable
+## 何时启用
 
-Enable this module when a project has repeated real conflicts about direction, claims, tone, scope, source interpretation, or production choices. It is intended for recurring disagreements, not for ordinary minor edits.
+当项目在方向、主张、语气、范围、来源解读或生产选择上反复出现真实冲突时，启用此模块。它面向重复分歧，而不是普通的小修小改。
 
-## Files Added
+## 新增文件
 
-- `conflict_log.md`: A neutral record of active and resolved conflicts, including the competing options and current status.
-- `version_decision.md`: A record of final version choices, rationale, and what alternatives were rejected.
+- `conflict_log.md`：中立记录进行中和已解决的冲突，包括竞争选项和当前状态。
+- `version_decision.md`：记录最终版本选择、理由，以及被拒绝的备选方案。
 
-## How It Changes Context Routing
+## 对上下文路由的影响
 
-Context routing should check unresolved entries in `conflict_log.md` before advancing the project. When a conflict affects output quality or publication readiness, the project should route through decision review before drafting, packaging, or publishing continues. Final choices should be reflected in `version_decision.md` so later work does not reopen settled decisions without new evidence.
+上下文路由在推进项目前，应检查 `conflict_log.md` 中未解决的条目。当冲突影响输出质量或发布准备度时，项目应先经过决策审查，再继续起草、打包或发布。最终选择应反映在 `version_decision.md` 中，避免后续工作在没有新证据的情况下重新打开已定决策。
 
-## How To Disable
+## 如何停用
 
-Disable this module after conflicts are resolved and the project has a stable decision path. Keep the records for audit context, but remove them from the active routing checklist unless a new recurring conflict appears.
+冲突解决且项目拥有稳定决策路径后，可停用此模块。保留记录作为审计上下文，但除非新的重复冲突出现在项目中，否则从活动路由检查清单中移除。

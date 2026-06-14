@@ -1,19 +1,19 @@
-# Publish Checklist
+# 发布检查清单
 
-## Final Asset Path
+## 最终资产路径
 
-## Render Version
+## 渲染版本
 
-## Title Checked
+## 标题已检查
 
-## Description/Body Checked
+## 描述/正文已检查
 
-## Tags Checked
+## 标签已检查
 
-## Cover Checked
+## 封面已检查
 
-## Rights Checked
+## 权利已检查
 
-## Upload/Schedule Status
+## 上传/定时状态
 
-## Final Review Notes
+## 最终审查备注

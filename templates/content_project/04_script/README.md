@@ -1,7 +1,7 @@
-# Script
+# 脚本
 
-## Input
+## 输入
 
-## Current Output
+## 当前输出
 
-## Open Questions
+## 开放问题

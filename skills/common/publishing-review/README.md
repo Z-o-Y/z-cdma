@@ -1,5 +1,5 @@
 # publishing-review
 
-Records publishing data, comments, review notes, generic lessons, and promotion candidates after content is released.
+在内容发布后记录发布数据、评论、复盘记录、通用经验和提升候选。
 
-Public/local boundary: the public review template should stay generic. Local platform or account strategy belongs in private local files and must not be folded into the public template.
+公共/本地边界：公共复盘模板应保持通用。本地平台或账号策略属于私有本地文件，不得并入公共模板。

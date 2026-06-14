@@ -3,57 +3,57 @@ name: production-package
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Create production-ready shot lists, asset requirements, editing checklists, tool prompts, and render indexes.
+description: 创建可用于生产的镜头清单、资产需求、剪辑检查清单、工具提示词和渲染索引。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to convert a script and storyboard into an execution package for recording, asset creation, editing, and rendering.
+使用此技能将脚本和分镜转化为可执行生产包，用于录制、资产创建、剪辑和渲染。
 
-# When To Use
+# 何时使用
 
-Use it when a project is ready to move from planning into production or when production materials need to be reviewed for completeness.
+当项目准备从规划进入生产，或需要审查生产材料是否完整时使用。
 
-# Inputs
+# 输入
 
-- Script draft or final script.
-- Storyboard notes.
-- Format and delivery requirements.
-- Available assets and known tool constraints.
+- 脚本草稿或最终脚本。
+- 分镜记录。
+- 格式和交付要求。
+- 可用资产和已知工具限制。
 
-# Context Routing
+# 上下文路由
 
-Read the script, storyboard, and project production notes. Load tool-specific or asset inventory files only when needed for the package.
+读取脚本、分镜和项目生产记录。只有在生产包需要时，才加载工具专用文件或资产清单。
 
-# Workflow
+# 工作流
 
-1. Create a shot list from storyboard beats.
-2. List required assets, source files, and generated materials.
-3. Prepare editing checklist and sequence notes.
-4. Draft tool prompts or production instructions in reusable form.
-5. Build a render index with outputs, versions, and review targets.
-6. Record open production blockers.
+1. 根据分镜节拍创建镜头清单。
+2. 列出所需资产、源文件和生成材料。
+3. 准备剪辑检查清单和序列记录。
+4. 以可复用形式起草工具提示词或生产指令。
+5. 创建包含输出、版本和审查目标的渲染索引。
+6. 记录未解决的生产阻塞。
 
-# Outputs
+# 输出
 
-- Shot list.
-- Asset requirements.
-- Editing checklist.
-- Tool prompts or production instructions.
-- Render index.
-- Blocker list.
+- 镜头清单。
+- 资产需求。
+- 剪辑检查清单。
+- 工具提示词或生产指令。
+- 渲染索引。
+- 阻塞清单。
 
-# Memory Writeback
+# 记忆写回
 
-Log package version, required assets, render targets, blockers, and next owner or step.
+记录生产包版本、所需资产、渲染目标、阻塞项，以及下一位负责人或下一步。
 
-# Quality Checklist
+# 质量检查清单
 
-- Production package traces back to approved script and storyboard.
-- Asset requirements are concrete and reusable.
-- Editing checklist is ordered enough for execution.
-- Render index names outputs and review status clearly.
+- 生产包可追溯到已批准脚本和分镜。
+- 资产需求具体且可复用。
+- 剪辑检查清单顺序足以支持执行。
+- 渲染索引清楚命名输出和审查状态。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It supports any production toolchain by keeping instructions structured, explicit, and portable.
+此技能与 Agent 无关。它通过保持指令结构化、明确且可移植，支持任何生产工具链。

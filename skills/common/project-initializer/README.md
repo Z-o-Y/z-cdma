@@ -1,5 +1,5 @@
 # project-initializer
 
-Creates a new local content project from approved templates, preserving a clear starting structure and recording the first status and activity notes.
+基于已批准模板创建新的本地内容项目，保留清晰的起始结构，并记录初始状态和活动笔记。
 
-Public/local boundary: this skill creates local project artifacts. It should not alter public framework templates unless the user explicitly requests template maintenance.
+公共/本地边界：此技能创建本地项目产物。除非用户明确要求维护模板，否则不应修改公共框架模板。

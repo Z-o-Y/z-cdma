@@ -1,25 +1,25 @@
-# Asset Policy Protocol
+# 资产策略协议
 
-## Purpose
+## 目的
 
-Keep heavy media, source assets, render outputs, and editing projects manageable while preserving enough metadata for reuse and audit.
+让大型媒体、源资产、渲染输出和剪辑工程保持可管理，同时保留足够元数据用于复用和审计。
 
-## Storage Rules
+## 存储规则
 
-- Keep heavy files external to the public framework repository.
-- Store index paths only when assets are too large, private, licensed, or local-only.
-- Index reusable assets with stable identifiers, location, description, usage scope, and status.
-- Record render paths for final exports, previews, thumbnails, subtitles, and production packages.
-- Record license, source, and scope for every reusable external asset.
+- 大型文件应保存在公共框架仓库之外。
+- 当资产过大、私有、受许可限制或仅限本地时，只保存索引路径。
+- 用稳定标识符、位置、描述、使用范围和状态索引可复用资产。
+- 为最终导出、预览、缩略图、字幕和生产包记录渲染路径。
+- 为每个可复用外部资产记录许可、来源和适用范围。
 
-## Public Boundary
+## 公共边界
 
-- Video, audio, and editing projects are not public GitHub content.
-- Local raw footage, voice files, project files, renders, platform uploads, and private asset libraries stay in local workspace paths or external storage.
-- Public framework files may describe generic asset conventions but must not include private content, heavy binaries, or local-only production material.
+- 视频、音频和剪辑工程不属于公开 GitHub 内容。
+- 本地原始素材、语音文件、工程文件、渲染文件、平台上传物和私有资产库应留在本地工作区路径或外部存储中。
+- 公共框架文件可以描述通用资产规范，但不得包含私有内容、大型二进制文件或仅限本地的生产材料。
 
-## Reuse Rules
+## 复用规则
 
-- Reuse only assets whose license, source, and scope permit the intended use.
-- Prefer indexed reusable assets over rediscovering or duplicating files.
-- If an asset path moves, update the index rather than embedding stale paths in multiple documents.
+- 只复用许可、来源和范围允许当前用途的资产。
+- 优先使用已索引的可复用资产，而不是重新寻找或复制文件。
+- 如果资产路径移动，更新索引，而不是在多个文档中嵌入过期路径。

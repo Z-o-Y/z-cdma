@@ -3,54 +3,54 @@ name: memory-promotion
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Create post-review promotion candidates from local memory for possible durable reuse.
+description: 从本地记忆中创建复盘后的提升候选，用于可能的持久复用。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to prepare reviewed memory promotion candidates after a human or explicit review step identifies information that may be reusable.
+当人工或明确复盘步骤识别出可能可复用的信息后，使用此技能准备已审查的记忆提升候选。
 
-# When To Use
+# 何时使用
 
-Use it after review of activity logs, project digests, or publishing results. Promotion candidates are created after review, not during ordinary work.
+在审查活动日志、项目摘要或发布结果之后使用。提升候选应在复盘后创建，而不是在普通工作过程中创建。
 
-# Inputs
+# 输入
 
-- Reviewed memory digest or activity range.
-- Review notes.
-- Candidate facts, preferences, reusable patterns, or process improvements.
-- Promotion target rules.
+- 已审查的记忆摘要或活动范围。
+- 复盘记录。
+- 候选事实、偏好、可复用模式或流程改进。
+- 提升目标规则。
 
-# Context Routing
+# 上下文路由
 
-Read only the reviewed memory sources and promotion rules. Do not scan unrelated logs or promote unreviewed ordinary task notes.
+只读取已审查的记忆来源和提升规则。不要扫描无关日志，也不要提升未经审查的普通任务笔记。
 
-# Workflow
+# 工作流
 
-1. Confirm that a review step has already occurred.
-2. Identify candidate durable information from reviewed sources.
-3. Separate reusable facts from project-only details.
-4. Write promotion candidates with evidence and scope.
-5. Mark candidates as pending until accepted by the proper review process.
+1. 确认复盘步骤已经发生。
+2. 从已审查来源中识别候选持久信息。
+3. 将可复用事实与仅限项目的细节分开。
+4. 写入带有证据和范围的提升候选。
+5. 在适当审查流程接受前，将候选标记为待定。
 
-# Outputs
+# 输出
 
-- Promotion candidate entries.
-- Evidence references.
-- Scope and confidence notes.
-- Rejected or local-only items, when useful.
+- 提升候选条目。
+- 证据引用。
+- 范围和置信度记录。
+- 有用时，记录被拒绝或仅限本地的项目。
 
-# Memory Writeback
+# 记忆写回
 
-Write only candidate records. Do not directly alter durable memory unless the governing review process explicitly accepts the candidate.
+只写入候选记录。除非主管审查流程明确接受候选，否则不要直接修改持久记忆。
 
-# Quality Checklist
+# 质量检查清单
 
-- Candidates are created after review, not during ordinary work.
-- Each candidate has evidence and scope.
-- Project-only or private details are not promoted to public memory.
-- Pending status is clear.
+- 候选在复盘后创建，而不是在普通工作中创建。
+- 每个候选都有证据和范围。
+- 仅限项目或私有细节不会被提升到公共记忆。
+- 待定状态清晰。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. Any assistant or human reviewer can prepare candidates while leaving final acceptance to the configured process.
+此技能与 Agent 无关。任何助手或人工审查者都可以准备候选，并将最终接受留给配置好的流程。

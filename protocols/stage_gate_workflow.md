@@ -1,31 +1,31 @@
-# Stage Gate Workflow Protocol
+# 阶段关口工作流协议
 
-## Purpose
+## 目的
 
-Provide a default content creation flow while allowing practical movement when a user intentionally jumps stages or supplies work out of order.
+提供默认内容创作流程，同时允许用户有意跳转阶段或乱序提供材料时保持务实推进。
 
-## Stages
+## 阶段
 
-- `00_topic`: define the subject, audience, publishing context, and initial angle.
-- `01_core_idea`: state the central claim, promise, emotional hook, and expected reader or viewer takeaway.
-- `02_research_materials`: gather sources, examples, evidence, references, and source quality notes.
-- `03_argument`: organize the logic, narrative arc, counterpoints, and proof structure.
-- `04_script`: produce the spoken or written content draft.
-- `05_storyboard`: map scenes, visuals, captions, pacing, and production beats.
-- `06_production_package`: prepare assets, prompts, shot lists, voiceover notes, editing instructions, and publish-ready files.
-- `07_publish`: record publishing platform, title, description, tags, cover, timing, and final asset paths.
-- `08_review`: capture performance, lessons, audience feedback, reusable knowledge, and promotion candidates.
+- `00_topic`：定义主题、受众、发布语境和初始角度。
+- `01_core_idea`：说明中心主张、承诺、情绪钩子，以及读者或观众应获得的收获。
+- `02_research_materials`：收集来源、示例、证据、参考资料和来源质量记录。
+- `03_argument`：组织逻辑、叙事线、反方观点和证明结构。
+- `04_script`：产出口播或文字内容草稿。
+- `05_storyboard`：映射场景、视觉、字幕、节奏和生产节拍。
+- `06_production_package`：准备资产、提示词、镜头清单、配音说明、剪辑指令和待发布文件。
+- `07_publish`：记录发布平台、标题、描述、标签、封面、发布时间和最终资产路径。
+- `08_review`：记录表现、经验、受众反馈、可复用知识和提升候选。
 
-## Default Stage Gate
+## 默认阶段关口
 
-- Work from the earliest incomplete stage needed for the task.
-- Before moving forward, check that the current stage has enough information for the next stage to be useful.
-- Record missing prerequisites and risks when proceeding with incomplete inputs.
-- Treat stage gates as decision points, not bureaucracy.
+- 从任务所需的最早未完成阶段开始工作。
+- 向前推进前，检查当前阶段是否有足够信息让下一阶段有价值。
+- 在输入不完整但仍要继续时，记录缺失前提和风险。
+- 将阶段关口视为决策点，而不是流程负担。
 
-## Explicit Jumps
+## 明确跳转
 
-- A user may explicitly jump to any stage.
-- When jumping, continue the requested work and note missing upstream prerequisites.
-- Do not hard block stage jumps unless the requested action is irreversible, unsafe, legally risky, or would overwrite trusted work.
-- If a jump creates uncertainty, preserve assumptions in status or handoff so later work can revisit them.
+- 用户可以明确跳转到任意阶段。
+- 跳转时，继续执行用户请求，并记录缺失的上游前提。
+- 除非请求的行动不可逆、不安全、存在法律风险，或会覆盖可信工作，否则不要硬性阻止阶段跳转。
+- 如果跳转带来不确定性，将假设保存在状态或交接中，便于后续工作回看。

@@ -1,15 +1,15 @@
-# Cover Brief
+# 封面简报
 
-## Visual Concept
+## 视觉概念
 
-## Required Text
+## 必要文字
 
-## Format And Safe Area
+## 格式与安全区
 
-## Source Assets
+## 来源资产
 
-## Rights Notes
+## 权利说明
 
-## Export Path
+## 导出路径
 
-## Open Questions
+## 开放问题

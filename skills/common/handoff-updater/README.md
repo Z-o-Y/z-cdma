@@ -1,5 +1,5 @@
 # handoff-updater
 
-Updates project status and handoff notes so a human or assistant can continue from a clear summary of completed work, blockers, and next actions.
+更新项目状态和交接记录，让人或助手可以基于已完成工作、阻塞项和下一步行动的清晰摘要继续工作。
 
-Public/local boundary: handoff format can be public-safe, but project-specific status and ownership notes belong in local project files.
+公共/本地边界：交接格式可以适合公开，但项目专用状态和归属记录应放在本地项目文件中。

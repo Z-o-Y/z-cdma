@@ -1,22 +1,22 @@
-# Handoff Protocol
+# 交接协议
 
-## Purpose
+## 目的
 
-Give the next agent or future session enough context to resume work without rereading the full workspace.
+为下一个 Agent 或未来会话提供足够上下文，使其无需重新阅读整个工作区即可继续工作。
 
-## Required Content
+## 必要内容
 
-- Current state: stage, task status, blockers, and what is in progress.
-- Trusted artifacts: files, assets, drafts, source lists, renders, or decisions considered reliable.
-- Recent decisions: choices made, rejected options, and the reason they matter.
-- User preferences: confirmed preferences that affect the next step.
-- Known risks: missing prerequisites, conflicts, license issues, quality concerns, or irreversible actions to avoid.
-- Next suggested step: the most useful immediate action.
-- Do-not-repeat notes: failed attempts, discarded paths, or checks already completed.
+- 当前状态：阶段、任务状态、阻塞项以及正在进行的工作。
+- 可信产物：被认为可靠的文件、资产、草稿、来源清单、渲染文件或决策。
+- 近期决策：已做选择、被拒绝的选项，以及它们为何重要。
+- 用户偏好：会影响下一步的已确认偏好。
+- 已知风险：缺失前提、冲突、许可问题、质量问题，或应避免的不可逆操作。
+- 建议下一步：最有用的即时行动。
+- 不要重复：失败尝试、已放弃路径或已完成检查。
 
-## Style
+## 风格
 
-- Keep handoff concise.
-- Prefer concrete file paths, artifact names, and decisions over narrative history.
-- Separate confirmed facts from assumptions.
-- Update handoff when continuity would otherwise be lost.
+- 交接应保持简洁。
+- 优先记录具体文件路径、产物名称和决策，而不是叙事历史。
+- 将已确认事实与假设分开。
+- 当不更新就会丢失连续性时，更新交接记录。

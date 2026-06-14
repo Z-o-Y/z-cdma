@@ -1,5 +1,5 @@
 # platform-adaptation
 
-Adapts approved content into generic platform-ready publish materials such as titles, captions, descriptions, metadata, and thumbnail notes.
+将已批准内容改写为通用平台可用的发布材料，例如标题、字幕、描述、元数据和封面备注。
 
-Public/local boundary: this skill uses generic platform templates only. Account-specific strategy, private analytics, and personal posting rules must stay in local account or project materials.
+公共/本地边界：此技能只使用通用平台模板。账号专用策略、私有分析和个人发布规则必须留在本地账号或项目材料中。

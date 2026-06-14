@@ -1,5 +1,5 @@
 # memory-summarizer
 
-Compresses raw activity and structured memory into a digest containing current decisions, assumptions, blockers, and next actions.
+将原始活动和结构化记忆压缩为摘要，包含当前决策、假设、阻塞项和下一步行动。
 
-Public/local boundary: digest format can be public and generic, while actual project memory content should remain in local project storage.
+公共/本地边界：摘要格式可以公开且通用，但实际项目记忆内容应留在本地项目存储中。

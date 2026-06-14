@@ -1,32 +1,32 @@
-# Memory Promotion Protocol
+# 记忆提升协议
 
-## Purpose
+## 目的
 
-Promote only reviewed knowledge that has durable value beyond the immediate task.
+只提升经过审查且具有超出当前任务的持久价值的知识。
 
-## Promotion Gate
+## 提升关口
 
-- Promotion happens only after publishing review and human confirmation.
-- Do not promote drafts, unverified assumptions, one-off preferences, or ordinary task notes.
-- Useful observations may be collected earlier as raw activity logs, review notes, or structured memory, but they are not durable promotion memory.
-- Promotion files are generated only during or after review, and require human confirmation before entering local long-term memory or framework candidates.
+- 提升只在发布复盘和人工确认之后发生。
+- 不要提升草稿、未经验证的假设、一次性偏好或普通任务笔记。
+- 有用观察可以先作为原始活动日志、复盘记录或结构化记忆收集，但它们不是持久提升记忆。
+- 提升文件只在复盘期间或之后生成，并且在进入本地长期记忆或框架候选前需要人工确认。
 
-## Destinations
+## 目标位置
 
-- `knowledge/common`: reusable knowledge that is generic across domains and safe for the public or shared framework context.
-- `domains/<domain-id>/knowledge`: confirmed local domain knowledge.
-- `skills_local` or `domains/*/skills`: repeatable local methods, prompts, workflows, or production skills.
-- `assets_index`: reusable assets, source files, render outputs, licenses, usage scope, and retrieval paths.
-- `public framework candidate`: generic protocol, template, or skill improvements that may belong in public GitHub after review.
+- `knowledge/common`：跨领域通用且适合公共或共享框架上下文的可复用知识。
+- `domains/<domain-id>/knowledge`：已确认的本地域知识。
+- `skills_local` 或 `domains/*/skills`：可重复使用的本地方法、提示词、工作流或生产技能。
+- `assets_index`：可复用资产、源文件、渲染输出、许可、使用范围和检索路径。
+- `public framework candidate`：审查后可能进入公开 GitHub 的通用协议、模板或技能改进。
 
-## Required Metadata
+## 必要元数据
 
-- `source`: where the knowledge came from, including task, artifact, review, metric, or human confirmation.
-- `scope`: where the knowledge applies, such as framework, project, domain, platform, format, or audience.
-- `risk`: privacy, license, accuracy, public suitability, operational sensitivity, and potential overgeneralization.
+- `source`：知识来源，包括任务、产物、复盘、指标或人工确认。
+- `scope`：知识适用范围，例如框架、项目、领域、平台、格式或受众。
+- `risk`：隐私、许可、准确性、公开适合度、运营敏感性和潜在过度泛化。
 
-## Review Rules
+## 审查规则
 
-- Prefer narrow local promotion over broad framework promotion when scope is uncertain.
-- Keep rejected candidates in raw or review notes only when audit value remains.
-- Do not promote private local content into public framework destinations.
+- 当范围不确定时，优先选择较窄的本地提升，而不是宽泛的框架提升。
+- 被拒绝候选只有在仍有审计价值时，才保留在原始记录或复盘记录中。
+- 不要将私有本地内容提升到公共框架目标位置。

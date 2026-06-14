@@ -3,55 +3,55 @@ name: platform-adaptation
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Adapt publish materials to generic platform templates without account-specific strategy.
+description: 将发布材料适配到通用平台模板，不包含账号专用策略。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to adapt titles, summaries, descriptions, captions, thumbnails notes, and metadata into generic platform-ready formats.
+使用此技能将标题、摘要、描述、字幕、封面备注和元数据适配为通用平台可用格式。
 
-# When To Use
+# 何时使用
 
-Use it after a script, package, or rendered output exists and the project needs public-facing publish materials.
+当脚本、生产包或渲染输出已经存在，且项目需要面向公众的发布材料时使用。
 
-# Inputs
+# 输入
 
-- Content summary or final script.
-- Render index or final output details.
-- Target platform template.
-- Generic length, formatting, and metadata constraints.
+- 内容摘要或最终脚本。
+- 渲染索引或最终输出细节。
+- 目标平台模板。
+- 通用长度、格式和元数据约束。
 
-# Context Routing
+# 上下文路由
 
-Read the project publish materials and the selected generic platform template. Do not load or apply account-specific strategy, private performance records, or personal posting rules.
+读取项目发布材料和选定的通用平台模板。不要加载或应用账号专用策略、私有表现记录或个人发布规则。
 
-# Workflow
+# 工作流
 
-1. Confirm the target generic platform template.
-2. Extract publishable claims, hooks, and metadata from approved content.
-3. Adapt titles, descriptions, captions, tags, and thumbnail notes to the template.
-4. Check length, formatting, and consistency constraints.
-5. Mark any items that require human or account-level review.
+1. 确认目标通用平台模板。
+2. 从已批准内容中提取可发布主张、钩子和元数据。
+3. 将标题、描述、字幕、标签和封面备注适配到模板。
+4. 检查长度、格式和一致性约束。
+5. 标记所有需要人工或账号级审查的项目。
 
-# Outputs
+# 输出
 
-- Platform-formatted title options.
-- Description or caption draft.
-- Generic tag or metadata suggestions.
-- Thumbnail or cover notes.
-- Review flags.
+- 平台格式化标题选项。
+- 描述或字幕草稿。
+- 通用标签或元数据建议。
+- 缩略图或封面备注。
+- 审查标记。
 
-# Memory Writeback
+# 记忆写回
 
-Record the template used, generated publish materials, review flags, and selected final options when known.
+记录使用的模板、生成的发布材料、审查标记，以及已知时的最终选项。
 
-# Quality Checklist
+# 质量检查清单
 
-- Materials match the selected generic template.
-- No account-specific strategy is included.
-- Adapted copy remains faithful to the approved content.
-- Human review flags are explicit.
+- 材料符合选定的通用模板。
+- 不包含账号专用策略。
+- 适配后的文案忠于已批准内容。
+- 人工审查标记明确。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It can be used with any platform template that is generic, public-safe, and separate from private account strategy.
+此技能与 Agent 无关。它可用于任何通用、适合公开且与私有账号策略分离的平台模板。

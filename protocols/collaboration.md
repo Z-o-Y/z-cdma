@@ -1,26 +1,26 @@
-# Collaboration Protocol
+# 协作协议
 
-## Purpose
+## 目的
 
-Coordinate human and agent work in a shared content workspace without forcing heavy process on simple tasks.
+在共享内容工作区中协调人与 Agent 的工作，同时避免给简单任务强加沉重流程。
 
-## Default Log
+## 默认日志
 
-- Use `activity_log` as the default collaboration record for meaningful actions, decisions, artifact changes, and handoffs.
-- Keep routine entries short and factual.
-- Include actor, time when available, affected path or artifact, and outcome.
+- 使用 `activity_log` 作为有意义行动、决策、产物变更和交接的默认协作记录。
+- 常规记录应简短、事实化。
+- 在可用时包含执行者、时间、受影响路径或产物，以及结果。
 
-## Optional Modules
+## 可选模块
 
-- Enable a collaboration log when multiple agents, repeated human edits, or parallel workstreams are active.
-- Enable a change log when users need a durable summary of user-visible changes.
-- Enable conflict resolution notes when edits, instructions, or memories disagree.
-- Enable a long project module when work spans many sessions, stages, assets, or publishing cycles.
+- 当多个 Agent、重复人工编辑或并行工作流同时存在时，启用协作日志。
+- 当用户需要可长期保存的用户可见变更摘要时，启用变更日志。
+- 当编辑、指令或记忆互相冲突时，启用冲突解决记录。
+- 当工作跨越多个会话、阶段、资产或发布周期时，启用长期项目模块。
 
-## Coordination Rules
+## 协调规则
 
-- Check current status and handoff before editing.
-- Do not overwrite recent human edits without review.
-- Record assumptions when continuing from incomplete context.
-- Escalate conflicts using the conflict resolution protocol.
-- Keep optional modules scoped to repeated complexity; do not add process for one-off work unless risk justifies it.
+- 编辑前检查当前状态和交接记录。
+- 未经审查，不要覆盖近期人工编辑。
+- 从不完整上下文继续工作时，记录假设。
+- 使用冲突解决协议升级冲突。
+- 可选模块只用于反复出现的复杂度；除非风险足够高，不要为一次性工作增加流程。

@@ -3,54 +3,54 @@ name: script-planning
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Turn argument structure into script drafts and script review notes.
+description: 将论证结构转化为脚本草稿和脚本审查记录。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to convert a topic plan or argument outline into a draft script and a reviewable set of script notes.
+使用此技能将选题计划或论证大纲转化为脚本草稿和可审查的脚本记录。
 
-# When To Use
+# 何时使用
 
-Use it after topic planning and before storyboard planning, production planning, or platform adaptation.
+在选题规划之后、分镜规划、生产规划或平台适配之前使用。
 
-# Inputs
+# 输入
 
-- Topic plan.
-- Argument structure or outline.
-- Desired format, length, platform, and tone.
-- Required talking points, exclusions, and source notes.
+- 选题计划。
+- 论证结构或大纲。
+- 期望形式、长度、平台和语气。
+- 必要观点、排除项和来源记录。
 
-# Context Routing
+# 上下文路由
 
-Read the current topic plan, outline, and any script draft being revised. Avoid loading storyboard or publishing files unless requested.
+读取当前选题计划、大纲，以及正在修订的脚本草稿。除非用户请求，否则避免加载分镜或发布文件。
 
-# Workflow
+# 工作流
 
-1. Confirm the script goal and target format.
-2. Convert the argument structure into a scene, section, or beat sequence.
-3. Draft script copy with transitions and clear claims.
-4. Mark review notes for weak logic, missing context, unclear wording, or unsupported points.
-5. Provide revision priorities for the next pass.
+1. 确认脚本目标和目标形式。
+2. 将论证结构转化为场景、章节或节拍序列。
+3. 起草包含转场和清晰主张的脚本文案。
+4. 标记弱逻辑、缺失上下文、不清晰措辞或缺少支持的观点。
+5. 为下一轮提供修订优先级。
 
-# Outputs
+# 输出
 
-- Script draft.
-- Beat or section map.
-- Script review notes.
-- Revision checklist.
+- 脚本草稿。
+- 节拍或章节地图。
+- 脚本审查记录。
+- 修订检查清单。
 
-# Memory Writeback
+# 记忆写回
 
-Log the script version, major structure choices, unresolved review issues, and next recommended action.
+记录脚本版本、主要结构选择、未解决审查问题和建议下一步。
 
-# Quality Checklist
+# 质量检查清单
 
-- Script follows the approved topic boundaries.
-- Claims and examples are reviewable.
-- Draft has a clear beginning, middle, and ending.
-- Review notes distinguish required fixes from optional refinements.
+- 脚本遵循已批准的选题边界。
+- 主张和示例可审查。
+- 草稿有清楚的开头、中段和结尾。
+- 审查记录区分必要修复和可选优化。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It can be used by assistants or humans working with plain text drafts and structured notes.
+此技能与 Agent 无关。使用纯文本草稿和结构化记录的助手或人都可以使用它。

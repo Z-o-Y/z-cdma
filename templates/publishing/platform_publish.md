@@ -1,25 +1,25 @@
-# Platform Publish Record
+# 平台发布记录
 
-## Platform
+## 平台
 
-## Final Asset Path
+## 最终资产路径
 
-## Render Version
+## 渲染版本
 
-## Title
+## 标题
 
-## Description/Body
+## 描述/正文
 
-## Tags
+## 标签
 
-## Cover Path
+## 封面路径
 
-## Scheduled Time
+## 计划发布时间
 
-## Published Time
+## 实际发布时间
 
-## Publish URL
+## 发布 URL
 
-## Data Observation Time
+## 数据观察时间
 
-## Key Feedback
+## 关键反馈

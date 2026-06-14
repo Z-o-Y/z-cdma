@@ -1,13 +1,13 @@
-# Workspace Manifest
+# 工作区清单
 
-## Workspace Name
+## 工作区名称
 
-## Owner
+## 负责人
 
-## Platforms
+## 平台
 
-## Domains
+## 领域
 
-## External Asset Roots
+## 外部资产根路径
 
-## Created At
+## 创建时间

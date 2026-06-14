@@ -1,11 +1,11 @@
-# Brief
+# 简报
 
-## Goal
+## 目标
 
-## Audience
+## 受众
 
-## Format
+## 形式
 
-## Core Promise
+## 核心承诺
 
-## Boundaries
+## 边界

@@ -1,49 +1,48 @@
-# GitHub Publish Guide
+# GitHub 发布指南
 
-Use this checklist before pushing the public `z-cdma` framework to GitHub.
+将公开的 `z-cdma` 框架推送到 GitHub 前，请使用这份检查清单。
 
-## Validate the Boundary
+## 校验边界
 
-Run the boundary validator:
+运行边界校验工具：
 
 ```powershell
 .\tools\validate-public-boundary.ps1
 ```
 
-Fix any reported tracked private paths or disallowed files before publishing.
+发布前，修复所有被报告的已跟踪私有路径或不允许发布的文件。
 
-## Inspect Git State
+## 检查 Git 状态
 
-Review the pending changes:
+检查待提交变更：
 
 ```powershell
 git status --short
 ```
 
-Review tracked files:
+检查已跟踪文件：
 
 ```powershell
 git ls-files
 ```
 
-Only public framework files listed in `PUBLIC_MANIFEST.md` should be tracked and pushed.
+只有 `PUBLIC_MANIFEST.md` 中列出的公共框架文件才应被跟踪并推送。
 
-## Confirm Nothing Private Is Tracked
+## 确认没有跟踪私有内容
 
-Before pushing, verify Git is not tracking:
+推送前，确认 Git 未跟踪：
 
-- private content projects
-- local domains
-- private skills under `skills_local/`
-- private knowledge bases
-- credentials or account secrets
-- media files, editing project files, renders, or outputs
+- 私有内容项目
+- 本地域
+- `skills_local/` 下的私有技能
+- 私有知识库
+- 凭据或账号密钥
+- 媒体文件、剪辑工程文件、渲染文件或输出文件
 - `assets_index/`
 - `publishing_local/`
 
-Do not push if `git status --short` or `git ls-files` shows private content, credentials, media files, local domains, or content projects.
+如果 `git status --short` 或 `git ls-files` 显示私有内容、凭据、媒体文件、本地域或内容项目，不要推送。
 
-## Push Public Framework Files Only
+## 仅推送公共框架文件
 
-After validation and review, commit and push only public framework files. If the same directory is also a local workspace, treat every publish as a boundary check: the repository should contain the framework, not your private production pipeline or unpublished content.
-
+完成校验和审查后，只提交并推送公共框架文件。如果同一个目录也作为本地工作区使用，每次发布都应视为一次边界检查：仓库应只包含框架，而不是你的私有生产流程或未发布内容。

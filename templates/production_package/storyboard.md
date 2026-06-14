@@ -1,21 +1,21 @@
-# Storyboard
+# 分镜
 
-## Project
+## 项目
 
-## Version
+## 版本
 
-## Scene
+## 场景
 
-## Timestamp
+## 时间点
 
-## Visual Description
+## 视觉描述
 
-## Narration
+## 旁白
 
-## On-Screen Text
+## 屏幕文字
 
-## Audio Notes
+## 音频备注
 
-## Asset References
+## 资产引用
 
-## Production Notes
+## 生产备注

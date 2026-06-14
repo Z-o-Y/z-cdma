@@ -1,5 +1,5 @@
 # production-package
 
-Creates production-ready materials such as shot lists, asset requirements, editing checklists, tool prompts, and render indexes from project planning files.
+根据项目规划文件创建可用于生产的材料，例如镜头清单、资产需求、剪辑检查清单、工具提示词和渲染索引。
 
-Public/local boundary: generic package structure is public-safe, while concrete assets, prompts tied to private sources, and render records belong in local project files.
+公共/本地边界：通用生产包结构适合公开，但具体资产、绑定私有来源的提示词和渲染记录应放在本地项目文件中。

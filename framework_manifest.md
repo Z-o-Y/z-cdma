@@ -1,8 +1,9 @@
-# z-cdma Framework Manifest
+# z-cdma 框架清单
 
-- Name: z-cdma
-- Version: 0.1.0
-- Purpose: General self-media content creation framework for Agent-assisted workflows.
-- Public Scope: protocols, templates, common skills, optional modules, docs, public examples, validation tools.
-- Local Scope: domain capabilities, local skills, knowledge, content projects, asset indexes, production outputs.
-- Publish Rule: GitHub receives only public framework core.
+- 名称：z-cdma
+- 版本：0.1.0
+- 主语言：中文（zh-CN）
+- 用途：面向 Agent 协作流程的通用自媒体内容创作框架。
+- 公共范围：协议、模板、通用技能、可选模块、文档、公开示例、校验工具。
+- 本地范围：领域能力、本地技能、知识库、内容项目、资产索引、生产输出。
+- 发布规则：GitHub 仅接收公共框架核心。

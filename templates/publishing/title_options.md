@@ -1,15 +1,15 @@
-# Title Options
+# 标题选项
 
-## Option
+## 选项
 
-## Target Platform
+## 目标平台
 
-## Rationale
+## 理由
 
-## Expected Reader Promise
+## 预期读者承诺
 
-## Risk
+## 风险
 
-## Selected Title
+## 选定标题
 
-## Selection Reason
+## 选择理由

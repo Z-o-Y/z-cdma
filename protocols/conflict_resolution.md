@@ -1,29 +1,29 @@
-# Conflict Resolution Protocol
+# 冲突解决协议
 
-## Purpose
+## 目的
 
-Resolve disagreements between instructions, human edits, status, handoff, and memory using a predictable priority order.
+使用可预测的优先级顺序解决指令、人工编辑、状态、交接和记忆之间的分歧。
 
-## Priority Order
+## 优先级顺序
 
-1. Current user instruction.
-2. Recent human edit.
-3. status.md trusted artifact.
-4. handoff.md current conclusion.
-5. memory/digest.md.
-6. memory/structured/.
-7. memory/raw/activity_log.md.
+1. 当前用户指令。
+2. 近期人工编辑。
+3. `status.md` 中的可信产物状态。
+4. `handoff.md` 中的当前结论。
+5. `memory/digest.md`。
+6. `memory/structured/`。
+7. `memory/raw/activity_log.md`。
 
-## Resolution Rules
+## 解决规则
 
-- Prefer the highest-priority source that directly applies to the current decision.
-- Treat lower-priority sources as supporting evidence, not authority, when they conflict with higher-priority sources.
-- If a recent human edit appears intentional, preserve it unless the current user instruction says otherwise.
-- If status and handoff disagree, use status for trusted artifact state and handoff for the most recent conclusion unless a higher-priority source resolves the conflict.
-- Record the conflict and resolution when the decision affects future work.
+- 优先采用直接适用于当前决策的最高优先级来源。
+- 当低优先级来源与高优先级来源冲突时，将低优先级来源视为辅助证据，而不是权威。
+- 如果近期人工编辑看起来是有意的，除非当前用户指令另有说明，否则应保留。
+- 如果状态与交接记录不一致，除非更高优先级来源解决了冲突，否则用状态文件判断可信产物状态，用交接记录判断最新结论。
+- 当决策会影响未来工作时，记录冲突和解决方式。
 
-## Stop And Ask
+## 停下并询问
 
-- Stop and ask before irreversible changes.
-- Stop and ask before deleting, replacing, publishing, or externally sharing assets when intent is unclear.
-- Stop and ask when resolving the conflict would require discarding recent human work without explicit instruction.
+- 在进行不可逆变更前，停下并询问。
+- 当意图不清时，在删除、替换、发布或对外分享资产前停下并询问。
+- 如果解决冲突需要在没有明确指令的情况下丢弃近期人工工作，停下并询问。

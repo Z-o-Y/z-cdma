@@ -1,5 +1,5 @@
 # topic-planning
 
-Defines the topic, audience, platform, format, and boundaries for content work so later stages can proceed from clear assumptions.
+定义内容工作的主题、受众、平台、形式和边界，让后续阶段可以基于清晰假设推进。
 
-Public/local boundary: public examples may show generic planning fields, but real project topics and audience notes belong in local project files.
+公共/本地边界：公开示例可以展示通用规划字段，但真实项目主题和受众记录应放在本地项目文件中。

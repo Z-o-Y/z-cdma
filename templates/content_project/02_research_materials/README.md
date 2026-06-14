@@ -1,7 +1,7 @@
-# Research Materials
+# 研究材料
 
-## Input
+## 输入
 
-## Current Output
+## 当前输出
 
-## Open Questions
+## 开放问题

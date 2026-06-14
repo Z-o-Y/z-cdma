@@ -1,5 +1,5 @@
 # storyboard-planning
 
-Converts scripts into storyboard and visual planning notes, including beat-level visual intent, asset gaps, and timing considerations.
+将脚本转化为分镜和视觉规划记录，包括节拍级视觉意图、资产缺口和时间安排考虑。
 
-Public/local boundary: storyboard structure can be public and generic, but actual project visuals, assets, and scripts remain local project material.
+公共/本地边界：分镜结构可以公开且通用，但实际项目视觉、资产和脚本应保持为本地项目材料。

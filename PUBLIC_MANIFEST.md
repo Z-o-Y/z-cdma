@@ -1,6 +1,6 @@
-# Public Manifest
+# 公共清单
 
-These paths are intended for the public `z-cdma` GitHub repository:
+以下路径用于公开的 `z-cdma` GitHub 仓库：
 
 - README.md
 - CHANGELOG.md
@@ -17,7 +17,7 @@ These paths are intended for the public `z-cdma` GitHub repository:
 - examples/public_minimal_project/
 - tools/
 
-These paths are local-only and must not be published:
+以下路径仅限本地使用，不应发布：
 
 - domains/
 - skills_local/

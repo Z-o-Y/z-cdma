@@ -3,54 +3,54 @@ name: project-initializer
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Create a new local content project from approved templates and initial metadata.
+description: 基于已批准模板和初始元数据创建新的本地内容项目。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to start a local content project with the expected folder shape, template files, and initial planning records.
+使用此技能按预期文件夹结构、模板文件和初始规划记录启动本地内容项目。
 
-# When To Use
+# 何时使用
 
-Use it when a user asks to create a new content project, clone a template for a new idea, or prepare a blank project workspace.
+当用户要求创建新内容项目、为新想法复制模板，或准备空白项目工作区时使用。
 
-# Inputs
+# 输入
 
-- Project name or working title.
-- Selected template or project type.
-- Initial topic, audience, platform, or format notes, if available.
-- Local destination path.
+- 项目名称或工作标题。
+- 选定模板或项目类型。
+- 初始主题、受众、平台或形式记录，如果已有。
+- 本地目标路径。
 
-# Context Routing
+# 上下文路由
 
-Confirm that the task is a local content project task. Read only the template index, selected template files, and any local project registry required to avoid naming conflicts.
+确认任务属于本地内容项目任务。只读取模板索引、选定模板文件，以及避免命名冲突所需的本地项目登记信息。
 
-# Workflow
+# 工作流
 
-1. Confirm the project belongs in local project space.
-2. Select the closest approved template.
-3. Create the project directory and required starter files.
-4. Fill only known metadata and leave unknown fields explicit.
-5. Add a first status or handoff note when the project needs continuation.
-6. Record initialization in the raw activity log.
+1. 确认项目应放在本地项目空间。
+2. 选择最接近的已批准模板。
+3. 创建项目目录和必要起始文件。
+4. 只填写已知元数据，并明确保留未知字段。
+5. 当项目需要后续继续时，添加初始状态或交接记录。
+6. 在原始活动日志中记录初始化。
 
-# Outputs
+# 输出
 
-- New local project directory.
-- Starter project files copied or created from templates.
-- Initial metadata, status, and next step notes.
+- 新的本地项目目录。
+- 从模板复制或创建的起始项目文件。
+- 初始元数据、状态和下一步记录。
 
-# Memory Writeback
+# 记忆写回
 
-Append a raw activity entry with project name, template used, created paths, known metadata, and unresolved setup questions.
+追加一条原始活动记录，包含项目名称、所用模板、已创建路径、已知元数据和未解决的设置问题。
 
-# Quality Checklist
+# 质量检查清单
 
-- Project path is local and does not overwrite existing work.
-- Template source is recorded.
-- Unknown fields remain visible instead of guessed.
-- No account-specific or private material is added to public files.
+- 项目路径位于本地，且不会覆盖现有工作。
+- 已记录模板来源。
+- 未知字段保持可见，而不是被猜测填充。
+- 未向公共文件加入账号专用或私有材料。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It can be followed by any assistant that can inspect templates and create files in the permitted local workspace.
+此技能与 Agent 无关。任何能够检查模板并在允许的本地工作区创建文件的助手都可以遵循它。

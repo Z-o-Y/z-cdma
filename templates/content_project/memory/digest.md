@@ -1,9 +1,9 @@
-# Memory Digest
+# 记忆摘要
 
-## Current Context
+## 当前上下文
 
-## Stable Decisions
+## 稳定决策
 
-## Style Notes
+## 风格记录
 
-## Production Notes
+## 生产记录

@@ -1,11 +1,11 @@
-# Status
+# 状态
 
-## Current Stage
+## 当前阶段
 
-## Trusted Artifacts
+## 可信产物
 
-## Open Questions
+## 开放问题
 
-## Next Action
+## 下一步行动
 
-## Last Updated
+## 最后更新

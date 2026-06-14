@@ -3,54 +3,54 @@ name: storyboard-planning
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Turn scripts into storyboard and visual planning notes.
+description: 将脚本转化为分镜和视觉规划记录。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to map script beats into visual sequences, shot ideas, on-screen text, and asset needs.
+使用此技能将脚本节拍映射为视觉序列、镜头想法、屏幕文字和资产需求。
 
-# When To Use
+# 何时使用
 
-Use it after script planning and before production packaging, editing, or asset creation.
+在脚本规划之后、生产打包、剪辑或资产创建之前使用。
 
-# Inputs
+# 输入
 
-- Approved or working script draft.
-- Target format and length.
-- Visual style constraints.
-- Available assets or required asset types.
+- 已批准或工作中的脚本草稿。
+- 目标形式和长度。
+- 视觉风格约束。
+- 可用资产或所需资产类型。
 
-# Context Routing
+# 上下文路由
 
-Read the current script and visual planning files only. Add production or asset inventory context only when the storyboard must be packaged for execution.
+只读取当前脚本和视觉规划文件。只有当分镜必须打包执行时，才加入生产或资产清单上下文。
 
-# Workflow
+# 工作流
 
-1. Split the script into visual beats.
-2. Assign each beat a visual intent.
-3. Note candidate shots, graphics, screen elements, or supporting media.
-4. Identify asset gaps and timing risks.
-5. Create storyboard notes that production packaging can use.
+1. 将脚本拆分为视觉节拍。
+2. 为每个节拍指定视觉意图。
+3. 记录候选镜头、图形、屏幕元素或辅助媒体。
+4. 识别资产缺口和时间风险。
+5. 创建生产打包可使用的分镜记录。
 
-# Outputs
+# 输出
 
-- Storyboard beat table or notes.
-- Visual intent by segment.
-- Asset gap list.
-- Timing and continuity notes.
+- 分镜节拍表或记录。
+- 分段视觉意图。
+- 资产缺口清单。
+- 时间和连续性记录。
 
-# Memory Writeback
+# 记忆写回
 
-Record storyboard version, major visual decisions, asset gaps, and follow-up actions in the project activity log.
+在项目活动日志中记录分镜版本、主要视觉决策、资产缺口和后续行动。
 
-# Quality Checklist
+# 质量检查清单
 
-- Every major script beat has a visual plan.
-- Visual notes support the message instead of adding unrelated material.
-- Asset gaps are explicit.
-- Timing assumptions are practical for the target format.
+- 每个主要脚本节拍都有视觉计划。
+- 视觉记录支持信息表达，而不是添加无关材料。
+- 资产缺口明确。
+- 时间假设适用于目标形式。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It can be used with text tables, visual notes, or any storyboard format supported by the project.
+此技能与 Agent 无关。它可用于文本表格、视觉记录或项目支持的任何分镜格式。

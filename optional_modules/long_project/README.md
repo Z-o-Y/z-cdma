@@ -1,18 +1,18 @@
-# Long Project
+# 长期项目
 
-## When To Enable
+## 何时启用
 
-Enable this module for long-running content projects that span multiple work sessions, research passes, drafts, reviews, or production cycles. It is useful when a simple status file no longer carries enough continuity.
+当内容项目跨越多个工作会话、研究轮次、草稿、审查或生产周期时，启用此模块。它适用于简单状态文件已不足以承载连续性的情况。
 
-## Files Added
+## 新增文件
 
-- `milestone_digest.md`: A compact summary of completed milestones, major outputs, and current project direction.
-- `review_cycle.md`: A record of review cadence, review criteria, open review items, and next review timing.
+- `milestone_digest.md`：压缩总结已完成里程碑、主要输出和当前项目方向。
+- `review_cycle.md`：记录复盘节奏、复盘标准、开放复盘项和下一次复盘时间。
 
-## How It Changes Context Routing
+## 对上下文路由的影响
 
-Context routing should read `milestone_digest.md` before loading detailed project files, then use `review_cycle.md` to decide whether the next step is creation, revision, validation, or publication preparation. Agents should update milestone summaries after meaningful phase changes so future sessions do not need to reload the full project history.
+上下文路由在加载详细项目文件前，应先读取 `milestone_digest.md`，再使用 `review_cycle.md` 判断下一步是创作、修订、校验还是发布准备。Agent 应在有意义的阶段变化后更新里程碑摘要，使未来会话无需重新加载完整项目历史。
 
-## How To Disable
+## 如何停用
 
-Disable this module when the project becomes short-lived again, reaches publication, or no longer needs milestone-level continuity. Keep the final digest as a project summary and remove the review cycle from active routing.
+当项目重新变为短期项目、已经发布，或不再需要里程碑级连续性时，可停用此模块。保留最终摘要作为项目总结，并将复盘周期从活动路由中移除。

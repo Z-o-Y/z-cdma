@@ -3,57 +3,57 @@ name: context-router
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Route content work to the right context, skill, stage, and writeback path.
+description: 将内容工作路由到正确的上下文、技能、阶段和写回路径。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to decide what context is needed before a content task and what should be written back after the task changes project state.
+使用此技能判断内容任务开始前需要哪些上下文，以及任务改变项目状态后应写回哪些内容。
 
-# When To Use
+# 何时使用
 
-Use it at the start of content work, when switching stages, or when a task may affect project status, memory, handoff, or reusable framework material.
+在内容工作开始、切换阶段，或任务可能影响项目状态、记忆、交接或可复用框架材料时使用。
 
-# Inputs
+# 输入
 
-- User request or task brief.
-- Available project, memory, status, or handoff entry files.
-- Known content stage, if already selected.
+- 用户请求或任务简报。
+- 可用的项目、记忆、状态或交接入口文件。
+- 已知内容阶段，如果已经选择。
 
-# Context Routing
+# 上下文路由
 
-Keep routing narrow. Load only files required to understand the task, stage, and writeback target.
+保持路由范围收窄。只加载理解任务、阶段和写回目标所需的文件。
 
-# Workflow
+# 工作流
 
-1. Identify whether the user task concerns public framework, local domain capability, or local content project.
-2. Read the minimal entry files.
-3. Select the content stage.
-4. Add only the needed memory layer.
-5. Call the relevant common or local skill.
-6. Write activity to raw log.
-7. Update digest, status, or handoff when changed.
-8. Never write public framework core from an ordinary content task.
+1. 判断用户任务涉及公共框架、本地域能力，还是本地内容项目。
+2. 读取最小入口文件。
+3. 选择内容阶段。
+4. 只添加必要的记忆层。
+5. 调用相关的通用或本地技能。
+6. 将活动写入原始日志。
+7. 当摘要、状态或交接发生变化时更新它们。
+8. 普通内容任务绝不写入公共框架核心。
 
-# Outputs
+# 输出
 
-- Routing decision.
-- Selected content stage.
-- Minimal context file list.
-- Next skill or workflow step.
-- Writeback targets.
+- 路由决策。
+- 选定内容阶段。
+- 最小上下文文件列表。
+- 下一个技能或工作流步骤。
+- 写回目标。
 
-# Memory Writeback
+# 记忆写回
 
-Record the routing decision, files consulted, stage selected, and any changed status or handoff target in the appropriate raw activity log.
+在适当的原始活动日志中记录路由决策、已查阅文件、选定阶段，以及任何变化的状态或交接目标。
 
-# Quality Checklist
+# 质量检查清单
 
-- Scope is classified before files are edited.
-- Only necessary context is loaded.
-- Public framework material is not changed for ordinary project work.
-- Writeback target is explicit.
+- 编辑文件前已完成范围分类。
+- 只加载必要上下文。
+- 普通项目工作不修改公共框架材料。
+- 写回目标明确。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. Any assistant can apply it using local file reads, project conventions, and safe writeback rules.
+此技能与 Agent 无关。任何助手都可以通过本地文件读取、项目约定和安全写回规则来应用它。

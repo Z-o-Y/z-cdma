@@ -1,5 +1,5 @@
 # script-planning
 
-Turns an argument outline into a script draft with review notes, revision priorities, and a clear beat structure for later production work.
+将论证大纲转化为脚本草稿，并附带复盘记录、修订优先级和清晰节拍结构，供后续生产使用。
 
-Public/local boundary: generic script workflow guidance is public-safe, while actual scripts and review notes belong in local project files.
+公共/本地边界：通用脚本工作流说明适合公开，但实际脚本和审查记录应放在本地项目文件中。

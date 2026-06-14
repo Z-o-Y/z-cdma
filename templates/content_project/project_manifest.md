@@ -1,13 +1,13 @@
-# Project Manifest
+# 项目清单
 
-## Project ID
+## 项目 ID
 
-## Title
+## 标题
 
-## Platforms
+## 平台
 
-## Domain
+## 领域
 
-## Current Stage
+## 当前阶段
 
-## Created At
+## 创建时间

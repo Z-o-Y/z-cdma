@@ -1,5 +1,5 @@
-# Workspace Template
+# 工作区模板
 
-This directory marks the boundary between the public framework and a local working copy.
+此目录标记公共框架与本地工作副本之间的边界。
 
-Public framework files should stay generic, reusable, and safe to share. Local workspace files may point to external assets or operational choices, but should not be committed if they contain private paths, credentials, account-specific strategy, or unpublished content.
+公共框架文件应保持通用、可复用且适合分享。本地工作区文件可以指向外部资产或运营选择，但如果包含私有路径、凭据、账号级策略或未发布内容，就不应提交。

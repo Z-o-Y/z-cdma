@@ -1,8 +1,8 @@
-# Changelog
+# 变更日志
 
 ## 0.1.0 - 2026-06-13
 
-- Initial public framework skeleton.
-- Added public/private boundary model.
-- Added content creation stage model.
-- Added Agent memory and context routing design.
+- 初始化公共框架骨架。
+- 添加公共/私有边界模型。
+- 添加内容创作阶段模型。
+- 添加 Agent 记忆与上下文路由设计。

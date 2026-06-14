@@ -1,5 +1,5 @@
-# Skill Template
+# 技能模板
 
-This is a public-safe generic skill template for creating reusable agent workflow skills.
+这是一个适合公开的通用技能模板，用于创建可复用的 Agent 工作流技能。
 
-Use it as a neutral starting point. Do not include private account details, credentials, local-only paths, unpublished strategy, or domain-specific methods unless they are safe to share publicly.
+将它作为中立起点。除非内容可以安全公开分享，否则不要包含私有账号细节、凭据、仅限本地的路径、未发布策略或领域专用方法。

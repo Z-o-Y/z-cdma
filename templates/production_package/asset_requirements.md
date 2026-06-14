@@ -1,19 +1,19 @@
-# Asset Requirements
+# 资产需求
 
-## Project
+## 项目
 
-## Asset ID
+## 资产 ID
 
-## Asset Type
+## 资产类型
 
-## Description
+## 描述
 
-## Required Format
+## 所需格式
 
-## Source
+## 来源
 
-## Rights Notes
+## 权利说明
 
-## Status
+## 状态
 
-## Replacement Option
+## 替代方案

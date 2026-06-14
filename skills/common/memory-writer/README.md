@@ -1,5 +1,5 @@
 # memory-writer
 
-Appends raw activity and structured memory updates so project decisions, changed files, open questions, and handoff-relevant facts are preserved.
+追加原始活动和结构化记忆更新，以保留项目决策、变更文件、开放问题和与交接相关的事实。
 
-Public/local boundary: framework examples may define memory shapes, but real task logs and structured updates belong in local project memory.
+公共/本地边界：框架示例可以定义记忆形状，但真实任务日志和结构化更新应放在本地项目记忆中。

@@ -1,19 +1,19 @@
-# Editing Checklist
+# 剪辑检查清单
 
-## Project
+## 项目
 
-## Version
+## 版本
 
-## Structure Check
+## 结构检查
 
-## Visual Check
+## 视觉检查
 
-## Audio Check
+## 音频检查
 
-## Text Check
+## 文本检查
 
-## Rights Check
+## 权利检查
 
-## Export Check
+## 导出检查
 
-## Reviewer Notes
+## 审查备注

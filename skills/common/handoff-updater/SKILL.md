@@ -3,57 +3,57 @@ name: handoff-updater
 version: 0.1.0
 scope: common
 agent_agnostic: true
-description: Update status and handoff notes for human or assistant continuation.
+description: 更新状态和交接记录，便于人或助手继续工作。
 ---
 
-# Purpose
+# 目的
 
-Use this skill to leave a project in a clear state for the next human or assistant who continues the work.
+使用此技能让项目处于清晰状态，便于下一位继续工作的人或助手接手。
 
-# When To Use
+# 何时使用
 
-Use it at the end of a work session, after blockers appear, when ownership changes, or before pausing a project.
+在工作会话结束、出现阻塞、负责人变化，或暂停项目前使用。
 
-# Inputs
+# 输入
 
-- Current task summary.
-- Completed work.
-- Changed files.
-- Remaining tasks.
-- Blockers, risks, or review needs.
-- Next owner, if known.
+- 当前任务摘要。
+- 已完成工作。
+- 已变更文件。
+- 剩余任务。
+- 阻塞、风险或审查需求。
+- 下一位负责人，如果已知。
 
-# Context Routing
+# 上下文路由
 
-Read current status, recent activity, and the handoff file only. Load detailed project artifacts only when needed to verify current state.
+只读取当前状态、近期活动和交接文件。只有在需要验证当前状态时，才加载详细项目产物。
 
-# Workflow
+# 工作流
 
-1. Summarize completed work.
-2. Record changed files and important decisions.
-3. List remaining tasks and blockers.
-4. Assign next owner or continuation mode when known.
-5. Update status and handoff notes.
-6. Log the handoff update in raw activity.
+1. 总结已完成工作。
+2. 记录已变更文件和重要决策。
+3. 列出剩余任务和阻塞项。
+4. 在已知时指定下一位负责人或继续方式。
+5. 更新状态和交接记录。
+6. 将交接更新写入原始活动。
 
-# Outputs
+# 输出
 
-- Updated status note.
-- Handoff summary.
-- Next actions.
-- Blocker and review list.
+- 更新后的状态记录。
+- 交接摘要。
+- 下一步行动。
+- 阻塞和审查清单。
 
-# Memory Writeback
+# 记忆写回
 
-Append the handoff update, next actions, and blocker state to the raw activity log or project memory target.
+将交接更新、下一步行动和阻塞状态追加到原始活动日志或项目记忆目标中。
 
-# Quality Checklist
+# 质量检查清单
 
-- Next action is clear enough for continuation.
-- Blockers and risks are visible.
-- Completed work is separated from remaining work.
-- Handoff does not assume private context not written down.
+- 下一步行动足够清晰，可直接继续。
+- 阻塞和风险可见。
+- 已完成工作与剩余工作分开。
+- 交接不依赖未写下的私有上下文。
 
-# Agent Compatibility
+# Agent 兼容性
 
-This skill is agent-agnostic. It supports continuation by any human or assistant using explicit status and handoff records.
+此技能与 Agent 无关。它通过明确的状态和交接记录，支持任何人或助手继续工作。

@@ -1,24 +1,24 @@
-# Brief
+# 简报
 
-## Goal
+## 目标
 
-Help students create a cleaner desk setup that reduces distraction and makes focused study easier to start.
+帮助学生整理出更清爽的书桌环境，减少干扰，让专注学习更容易开始。
 
-## Audience
+## 受众
 
-Students, independent learners, and people who study at home with limited desk space.
+学生、自主学习者，以及在有限书桌空间内居家学习的人。
 
-## Format
+## 形式
 
-Short educational video or concise article with practical steps.
+带有可执行步骤的短教育视频或简短文章。
 
-## Core Promise
+## 核心承诺
 
-By the end, the audience can reset a desk into a simple study zone with clear space for active work, essential tools within reach, and distracting items moved out of sight.
+看完后，受众可以把书桌重置成一个简单的学习区：主动工作区域清楚，必要工具触手可及，分心物品移出视线。
 
-## Boundaries
+## 边界
 
-- Keep advice generic and low-cost.
-- Avoid claims that desk organization alone solves attention, health, or academic performance problems.
-- Do not reference real people, private rooms, personal accounts, or specific brands.
-- Do not include affiliate links or platform-specific publishing strategy.
+- 建议保持通用且低成本。
+- 避免宣称仅靠整理书桌就能解决注意力、健康或学业表现问题。
+- 不引用真实人物、私人房间、个人账号或具体品牌。
+- 不包含联盟链接或平台专用发布策略。

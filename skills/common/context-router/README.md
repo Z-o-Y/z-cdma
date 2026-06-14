@@ -1,5 +1,5 @@
 # context-router
 
-Routes a content task to the correct context, stage, skill, and writeback path while keeping file reads and edits minimal.
+将内容任务路由到正确的上下文、阶段、技能和写回路径，同时尽量减少文件读取和编辑。
 
-Public/local boundary: public framework files are only changed when the task is explicitly framework work. Ordinary content tasks should stay in local project space and write only the relevant activity, memory, status, or handoff records.
+公共/本地边界：只有当任务明确属于框架工作时，才修改公共框架文件。普通内容任务应留在本地项目空间内，并且只写入相关活动、记忆、状态或交接记录。
