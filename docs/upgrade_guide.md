@@ -36,7 +36,14 @@
 
 同时保留 `outputs/`、`renders/` 和 `tmp/` 等本地生产输出。
 
-如果本地工作区定制过公共模板或协议，先比较文件，再决定保留本地版本、采用框架版本，或将本地定制拆分到 `storage/library/` 或 `storage/skills/`。旧的 `domains/` 和 `skills_local/` 只作为兼容迁移来源。
+如果本地工作区定制过公共模板或协议，先比较文件，再决定保留本地版本、采用框架版本，或将本地定制拆分到 `storage/library/` 或 `storage/skills/`。
+
+## 区分迁移类型
+
+- 已经由 z-cdma 产生的 `storage/`、旧本地目录或跨设备数据迁移：使用 `z-cdma-admin`。
+- 其他工具、自建目录、旧知识库、已有作品或过程资料首次进入 z-cdma：使用 `z-cdma-import`。
+
+旧的 `domains/` 和 `skills_local/` 只作为兼容迁移来源。外部材料不要机械套用旧目录映射，应先建立导入批次、来源清单和导入计划。
 
 ## 升级后校验
 

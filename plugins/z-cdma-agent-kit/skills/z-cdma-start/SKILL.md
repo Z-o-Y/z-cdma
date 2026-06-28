@@ -7,7 +7,9 @@ description: Start local z-cdma work by locating the user's storage root, loadin
 
 ## Purpose
 
-Use this as the daily entrypoint for z-cdma work. Keep the context small, load only relevant local memory, and never publish or copy private storage content into public framework files.
+Use this as the daily entrypoint for z-cdma work after storage exists and any external materials have already been imported. Keep the context small, load only relevant local memory, and never publish or copy private storage content into public framework files.
+
+For first-time onboarding of prior notes, knowledge bases, old project folders, or materials created outside z-cdma, route to `z-cdma-import` first. For initialization, device migration, backup, restore, or storage health checks, route to `z-cdma-admin`.
 
 ## Storage Resolution
 
@@ -24,12 +26,17 @@ If no storage root exists, stop and recommend `z-cdma-admin` initialization. Do 
 
 1. Read `storage/README.md` to understand the local entrypoint and project conventions.
 2. Read `storage/config.md` only when task routing, defaults, or enabled modules matter.
-3. Read `storage/memory/digest.md` before broader memory files.
-4. Search `storage/memory/index.md` for task trigger matches.
-5. Search `storage/skills/index.md` for local Skill trigger matches.
-6. Load only matched memory notes, project files, or local Skills.
-7. Perform the requested task using the narrowest useful context.
-8. Decide whether the work produced writeback material.
+3. If the task is about importing external existing work, stop and recommend `z-cdma-import`.
+4. Read `storage/memory/digest.md` before broader memory files.
+5. Search `storage/memory/index.md` for task trigger matches.
+6. Search `storage/skills/index.md` for local Skill trigger matches.
+7. Load only matched memory notes, project files, local Skills, or completed import reports.
+8. Perform the requested task using the narrowest useful context.
+9. Decide whether the work produced writeback material.
+
+## Import Awareness
+
+If a relevant import batch exists under `storage/inbox/imports/`, prefer its `import_report.md` and the reconstructed project files under `storage/work/`. Do not load raw external import material unless the user explicitly asks and the task requires it.
 
 ## Writeback Decision
 

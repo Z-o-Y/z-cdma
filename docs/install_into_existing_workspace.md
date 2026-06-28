@@ -45,6 +45,10 @@ tmp/
 Copy-Item -Recurse templates/storage storage
 ```
 
-旧的 `domains/`、`skills_local/`、`knowledge/`、`content_projects/`、`assets_index/`、`publishing_local/`、`outputs/`、`renders/` 和 `tmp/` 仍应保持私有。安装后，优先把新项目放在 `storage/work/`，并用 `z-cdma-admin` 规划旧目录迁移。
+旧的 `domains/`、`skills_local/`、`knowledge/`、`content_projects/`、`assets_index/`、`publishing_local/`、`outputs/`、`renders/` 和 `tmp/` 仍应保持私有。安装后，优先把新项目放在 `storage/work/`。
 
+## 处理已有材料
 
+如果这些材料本来就是 z-cdma 旧版本或另一台设备上的 `storage/` 资产，用 `z-cdma-admin` 规划设备迁移、备份或恢复。
+
+如果这些材料来自其他工具、自建目录、旧知识库、历史作品或过程项目资料，用 `z-cdma-import`。它会先建立来源清单和导入计划，再把项目上下文、来源资料和经验候选分别落到 `storage/work/`、`storage/library/sources/` 和 `storage/memory/candidates/`。

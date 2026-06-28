@@ -4,7 +4,7 @@
 
 **Goal:** Add a market-ready z-cdma Agent Kit plugin, simple `storage/` templates, and public/private boundary updates.
 
-**Architecture:** Keep framework code public and personal data private. Publish three plugin Skills for daily start, memory curation, and storage administration while using `templates/storage/` as the canonical empty local data template.
+**Architecture:** Keep framework code public and personal data private. Publish four plugin Skills for daily start, external import, memory curation, and storage administration while using `templates/storage/` as the canonical empty local data template.
 
 **Tech Stack:** Markdown protocols and Skills, Codex plugin manifest JSON, PowerShell boundary validation.
 
@@ -17,7 +17,7 @@
 
 - [ ] **Step 1: Write the design spec**
 
-Create the design document with goals, non-goals, architecture, three Skill responsibilities, storage layout, error handling, and validation rules.
+Create the design document with goals, non-goals, architecture, four Skill responsibilities, storage layout, error handling, and validation rules.
 
 - [ ] **Step 2: Review for placeholders**
 
@@ -30,6 +30,7 @@ Search for `TBD`, `TODO`, vague ownership, or contradictory directory guidance. 
 - Create: `plugins/z-cdma-agent-kit/skills/z-cdma-start/SKILL.md`
 - Create: `plugins/z-cdma-agent-kit/skills/z-cdma-curate/SKILL.md`
 - Create: `plugins/z-cdma-agent-kit/skills/z-cdma-admin/SKILL.md`
+- Create: `plugins/z-cdma-agent-kit/skills/z-cdma-import/SKILL.md`
 
 - [ ] **Step 1: Scaffold plugin**
 
@@ -41,9 +42,9 @@ python C:\Users\zhaoy\.codex\skills\.system\plugin-creator\scripts\create_basic_
 
 Expected: plugin directory with `.codex-plugin/plugin.json` and `skills/`.
 
-- [ ] **Step 2: Create the three Skill folders**
+- [ ] **Step 2: Create the four Skill folders**
 
-Run `init_skill.py` for `z-cdma-start`, `z-cdma-curate`, and `z-cdma-admin` under `plugins/z-cdma-agent-kit/skills`.
+Run `init_skill.py` for `z-cdma-start`, `z-cdma-import`, `z-cdma-curate`, and `z-cdma-admin` under `plugins/z-cdma-agent-kit/skills`.
 
 - [ ] **Step 3: Replace generated Skill templates**
 
@@ -55,6 +56,7 @@ Run:
 
 ```powershell
 python C:\Users\zhaoy\.codex\skills\.system\skill-creator\scripts\quick_validate.py plugins\z-cdma-agent-kit\skills\z-cdma-start
+python C:\Users\zhaoy\.codex\skills\.system\skill-creator\scripts\quick_validate.py plugins\z-cdma-agent-kit\skills\z-cdma-import
 python C:\Users\zhaoy\.codex\skills\.system\skill-creator\scripts\quick_validate.py plugins\z-cdma-agent-kit\skills\z-cdma-curate
 python C:\Users\zhaoy\.codex\skills\.system\skill-creator\scripts\quick_validate.py plugins\z-cdma-agent-kit\skills\z-cdma-admin
 python C:\Users\zhaoy\.codex\skills\.system\plugin-creator\scripts\validate_plugin.py plugins\z-cdma-agent-kit
@@ -73,6 +75,7 @@ Expected: all validators pass.
 - Create: `templates/storage/work/README.md`
 - Create: `templates/storage/library/README.md`
 - Create: `templates/storage/backup/README.md`
+- Create: `templates/storage/inbox/README.md`
 
 - [ ] **Step 1: Add templates**
 
@@ -80,7 +83,7 @@ Create short, empty, user-facing templates that define where local agents start 
 
 - [ ] **Step 2: Check clarity**
 
-Confirm the top-level template only exposes `memory`, `skills`, `work`, `library`, and `backup` as primary directories.
+Confirm the top-level template only exposes `inbox`, `memory`, `skills`, `work`, `library`, and `backup` as primary directories.
 
 ### Task 4: Boundary Updates
 

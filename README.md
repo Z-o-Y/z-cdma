@@ -33,8 +33,14 @@
 1. 克隆或复制本仓库。
 2. 使用 `templates/storage/` 初始化本地 `storage/`。
 3. 安装或启用 `plugins/z-cdma-agent-kit/` 后，用 `z-cdma-start` 开始日常任务。
-4. 将真实生产内容保存在被忽略的 `storage/` 中。
-5. 发布前运行 `tools/validate-public-boundary.ps1`。
+4. 如果已有外部知识库、旧笔记、旧项目或过程材料，先用 `z-cdma-import` 导入为可继续工作的本地资产。
+5. 将真实生产内容保存在被忽略的 `storage/` 中。
+6. 发布前运行 `tools/validate-public-boundary.ps1`。
+
+## 两类迁移
+
+- 设备迁移、备份、恢复和 z-cdma storage 版本调整：使用 `z-cdma-admin`。
+- 首次采用 z-cdma 时导入其他工具或旧目录形成的材料：使用 `z-cdma-import`。
 
 ## 非目标
 

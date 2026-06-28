@@ -1,4 +1,4 @@
 interface:
   display_name: "z-cdma Start"
-  short_description: "Start local work with storage memory and skills"
-  default_prompt: "Use z-cdma-start to load my local storage context and route this task."
+  short_description: "Start local work with storage, memory, and skills."
+  default_prompt: "Use $z-cdma-start to load my local storage context and route this task."

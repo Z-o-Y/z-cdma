@@ -6,9 +6,22 @@
 
 新的本地扩展应放在 `storage/`：
 
-- `storage/library/`：私有领域知识、资料库、资产索引和参考材料。
+- `storage/library/`：私有领域知识、资料库、资产索引、来源资料和参考材料。
 - `storage/skills/`：工作区级私有 Skill。
 - `storage/work/`：具体项目和生产过程。
+- `storage/memory/candidates/`：尚未审查的经验候选。
+
+## 导入外部扩展材料
+
+如果领域知识、旧技能、提示词、项目方法或参考资料来自 z-cdma 之外，先用 `z-cdma-import` 建立来源清单和导入计划。
+
+导入后通常先放入：
+
+- `storage/library/sources/`：保留来源和证据。
+- `storage/memory/candidates/`：记录可复用经验候选。
+- `storage/work/<project-id>/`：重建可继续工作的项目上下文。
+
+只有经过 `z-cdma-curate` 审查，才把稳定方法提升为 `storage/skills/`。
 
 ## 兼容旧本地域
 

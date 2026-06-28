@@ -1,0 +1,4 @@
+interface:
+  display_name: "z-cdma Import"
+  short_description: "Bring prior notes, knowledge bases, and projects into z-cdma."
+  default_prompt: "Use $z-cdma-import to import my existing notes, knowledge base, or project materials into z-cdma storage."

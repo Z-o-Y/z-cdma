@@ -1,6 +1,6 @@
 ---
 name: z-cdma-admin
-description: Administer z-cdma local storage by initializing the storage template, checking structure, planning legacy migrations, exporting backups, dry-running restores, and validating public/private boundaries. Use for setup, migration, backup, restore, storage health checks, or when z-cdma-start cannot find a usable storage root.
+description: Administer z-cdma local storage by initializing the storage template, checking structure, planning z-cdma storage migrations, exporting backups, dry-running restores, and validating public/private boundaries. Use for setup, device migration, backup, restore, storage health checks, or when z-cdma-start cannot find a usable storage root.
 ---
 
 # z-cdma Admin
@@ -8,6 +8,8 @@ description: Administer z-cdma local storage by initializing the storage templat
 ## Purpose
 
 Use this for low-frequency storage management. Keep destructive operations explicit and reversible.
+
+Do not use this for first-time import of work created outside z-cdma. External notes, knowledge bases, old project folders, and process materials belong to `z-cdma-import`.
 
 ## Operations
 
@@ -17,10 +19,11 @@ Create a new storage root from `templates/storage/` when the user provides a tar
 
 ### Check
 
-Verify these files exist:
+Verify these files and folders exist:
 
 - `storage/README.md`
 - `storage/config.md`
+- `storage/inbox/`
 - `storage/memory/digest.md`
 - `storage/memory/index.md`
 - `storage/skills/index.md`
@@ -30,9 +33,11 @@ Verify these files exist:
 
 Report missing paths and recommend exact creation or copy steps.
 
-### Migrate
+### Migrate z-cdma Storage
 
-Plan moves from legacy local paths into `storage/`:
+Use this for device migration, storage portability, storage version migration, or migration from legacy z-cdma local paths into `storage/`.
+
+Legacy z-cdma local path mapping:
 
 - `domains/` -> `storage/library/domains/`
 - `skills_local/` -> `storage/skills/`
@@ -44,6 +49,8 @@ Plan moves from legacy local paths into `storage/`:
 - `renders/` -> `storage/work/renders/`
 
 Default migration mode is dry-run. Do not delete legacy paths after copy unless the user explicitly asks.
+
+If the source material was created by other tools or predates z-cdma, recommend `z-cdma-import` instead of applying this mapping mechanically.
 
 ### Backup
 

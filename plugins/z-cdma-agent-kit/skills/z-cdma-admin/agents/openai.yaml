@@ -1,4 +1,4 @@
 interface:
   display_name: "z-cdma Admin"
-  short_description: "Initialize backup migrate and restore storage"
-  default_prompt: "Use z-cdma-admin to initialize or check my local z-cdma storage."
+  short_description: "Initialize, back up, restore, and migrate z-cdma storage."
+  default_prompt: "Use $z-cdma-admin to initialize, check, back up, or restore my local z-cdma storage."
