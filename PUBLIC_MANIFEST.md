@@ -9,6 +9,7 @@
 - framework_manifest.md
 - PUBLIC_MANIFEST.md
 - .gitignore
+- .agents/plugins/marketplace.json
 - protocols/
 - templates/
 - skills/common/

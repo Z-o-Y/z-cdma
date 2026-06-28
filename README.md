@@ -32,10 +32,11 @@
 
 1. 克隆或复制本仓库。
 2. 使用 `templates/storage/` 初始化本地 `storage/`。
-3. 安装或启用 `plugins/z-cdma-agent-kit/` 后，用 `z-cdma-start` 开始日常任务。
-4. 如果已有外部知识库、旧笔记、旧项目或过程材料，先用 `z-cdma-import` 导入为可继续工作的本地资产。
-5. 将真实生产内容保存在被忽略的 `storage/` 中。
-6. 发布前运行 `tools/validate-public-boundary.ps1`。
+3. 在 Codex 的“添加插件市场”里使用仓库根目录：来源 `https://github.com/Z-o-Y/z-cdma`，Git 引用 `master`，稀疏路径留空。
+4. 安装或启用 `z-cdma-agent-kit` 后，用 `z-cdma-start` 开始日常任务。
+5. 如果已有外部知识库、旧笔记、旧项目或过程材料，先用 `z-cdma-import` 导入为可继续工作的本地资产。
+6. 将真实生产内容保存在被忽略的 `storage/` 中。
+7. 发布前运行 `tools/validate-public-boundary.ps1`。
 
 ## 两类迁移
 

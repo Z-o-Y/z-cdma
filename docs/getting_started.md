@@ -43,6 +43,8 @@ New-Item -ItemType Directory -Force storage/work/my-project
 
 ## 先路由上下文
 
+如果通过 Codex 插件市场安装，添加的是仓库根目录里的市场入口，不是单个插件目录。添加市场时使用来源 `https://github.com/Z-o-Y/z-cdma`、Git 引用 `master`，并把稀疏路径留空；`.agents/plugins/marketplace.json` 会指向 `plugins/z-cdma-agent-kit/`。
+
 开始内容工作前，优先使用 `plugins/z-cdma-agent-kit/` 中的 `z-cdma-start`。它会读取 `storage/README.md`、`memory/digest.md`、`memory/index.md` 和 `skills/index.md`，再决定加载哪个项目、记忆和本地 Skill。
 
 首次导入外部材料使用 `z-cdma-import`。复盘、合并、沉淀和瘦身使用 `z-cdma-curate`。初始化、设备迁移、备份和恢复使用 `z-cdma-admin`。

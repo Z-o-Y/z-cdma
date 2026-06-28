@@ -9,6 +9,7 @@
 - `protocols/`
 - `templates/`
 - `skills/common/`
+- `.agents/plugins/marketplace.json`
 - `plugins/`
 - `optional_modules/`
 - `examples/public_minimal_project/`
@@ -17,6 +18,10 @@
 - `PUBLIC_MANIFEST.md` 中列出的公共根文件，前提是你希望该工作区也像框架检出目录一样使用
 
 不要覆盖本地内容、本地域、私有技能、知识库、媒体索引、发布记录、输出或渲染文件。如果目标路径已存在，先比较差异，再有意识地合并。
+
+## 接入 Codex 插件市场
+
+如果要在 Codex 里添加本仓库作为插件市场，使用仓库根目录作为 marketplace root。添加市场时填写来源 `https://github.com/Z-o-Y/z-cdma`、Git 引用 `master`，稀疏路径留空。不要把稀疏路径填成 `plugins/z-cdma-agent-kit`；那是插件包路径，不是市场根目录。
 
 ## 添加本地忽略规则
 
