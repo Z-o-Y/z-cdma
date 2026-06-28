@@ -1,15 +1,18 @@
-# Local domain capabilities
-domains/
-skills_local/
-knowledge/
+# Local data root
+/storage/
 
-# Local content production
-content_projects/
-assets_index/
-publishing_local/
-outputs/
-renders/
-tmp/
+# Legacy local domain capabilities
+/domains/
+/skills_local/
+/knowledge/
+
+# Legacy local content production
+/content_projects/
+/assets_index/
+/publishing_local/
+/outputs/
+/renders/
+/tmp/
 
 # Large media and editing assets
 *.mp4

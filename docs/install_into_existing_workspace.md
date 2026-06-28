@@ -9,9 +9,11 @@
 - `protocols/`
 - `templates/`
 - `skills/common/`
+- `plugins/`
 - `optional_modules/`
 - `examples/public_minimal_project/`
 - `tools/`
+- `docs/`
 - `PUBLIC_MANIFEST.md` 中列出的公共根文件，前提是你希望该工作区也像框架检出目录一样使用
 
 不要覆盖本地内容、本地域、私有技能、知识库、媒体索引、发布记录、输出或渲染文件。如果目标路径已存在，先比较差异，再有意识地合并。
@@ -21,6 +23,7 @@
 确保工作区 `.gitignore` 包含以下仅限本地的路径：
 
 ```gitignore
+/storage/
 domains/
 skills_local/
 knowledge/
@@ -34,12 +37,14 @@ tmp/
 
 这些规则会让私有内容和生产产物留在公共框架仓库之外。
 
-## 创建本地专用目录
+## 创建本地数据根
 
-创建计划使用的本地目录：
+推荐创建新的本地数据根：
 
 ```powershell
-New-Item -ItemType Directory -Force domains, skills_local, knowledge, content_projects, assets_index, publishing_local, outputs, renders, tmp
+Copy-Item -Recurse templates/storage storage
 ```
 
-安装后，从 `templates/content_project/` 在 `content_projects/` 下创建项目。将公共框架更新与本地生产工作分开，后续升级会更容易审查。
+旧的 `domains/`、`skills_local/`、`knowledge/`、`content_projects/`、`assets_index/`、`publishing_local/`、`outputs/`、`renders/` 和 `tmp/` 仍应保持私有。安装后，优先把新项目放在 `storage/work/`，并用 `z-cdma-admin` 规划旧目录迁移。
+
+

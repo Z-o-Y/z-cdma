@@ -1,0 +1,25 @@
+{
+  "name": "z-cdma-agent-kit",
+  "version": "0.1.0",
+  "description": "Local memory, storage, and skill routing kit for z-cdma workspaces.",
+  "author": {
+    "name": "z-cdma"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "z-cdma Agent Kit",
+    "shortDescription": "Route local work through z-cdma storage, memory, and skills.",
+    "longDescription": "z-cdma Agent Kit helps local agents start work with the right storage context, curate reusable memories and skills, and manage initialization, migration, backup, and restore flows without publishing private user data.",
+    "developerName": "z-cdma",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use z-cdma-start to load my local storage context.",
+      "Use z-cdma-curate to consolidate reusable memories.",
+      "Use z-cdma-admin to check or initialize storage."
+    ]
+  }
+}

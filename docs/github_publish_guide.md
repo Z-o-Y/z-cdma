@@ -32,14 +32,10 @@ git ls-files
 
 推送前，确认 Git 未跟踪：
 
-- 私有内容项目
-- 本地域
-- `skills_local/` 下的私有技能
-- 私有知识库
+- `storage/` 下的私有记忆、本地 Skill、项目、资料库、备份和生产输出
+- 旧本地目录，包括 `domains/`、`skills_local/`、`knowledge/`、`content_projects/`、`assets_index/`、`publishing_local/`、`outputs/`、`renders/` 和 `tmp/`
 - 凭据或账号密钥
 - 媒体文件、剪辑工程文件、渲染文件或输出文件
-- `assets_index/`
-- `publishing_local/`
 
 如果 `git status --short` 或 `git ls-files` 显示私有内容、凭据、媒体文件、本地域或内容项目，不要推送。
 

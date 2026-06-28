@@ -12,6 +12,7 @@
 - protocols/
 - templates/
 - skills/common/
+- plugins/
 - optional_modules/
 - docs/
 - examples/public_minimal_project/
@@ -19,6 +20,7 @@
 
 以下路径仅限本地使用，不应发布：
 
+- storage/
 - domains/
 - skills_local/
 - knowledge/

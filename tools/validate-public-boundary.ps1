@@ -19,6 +19,7 @@ $requiredPublic = @(
   "protocols",
   "templates",
   "skills\common",
+  "plugins",
   "optional_modules",
   "docs",
   "examples\public_minimal_project",
@@ -26,6 +27,7 @@ $requiredPublic = @(
 )
 
 $privatePaths = @(
+  "storage",
   "domains",
   "skills_local",
   "knowledge",

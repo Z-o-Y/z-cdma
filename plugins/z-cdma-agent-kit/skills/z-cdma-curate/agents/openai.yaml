@@ -1,0 +1,4 @@
+interface:
+  display_name: "z-cdma Curate"
+  short_description: "Consolidate local memories and skills"
+  default_prompt: "Use z-cdma-curate to merge useful memories and update local skill indexes."

@@ -12,7 +12,11 @@
 
 公共框架路径以 `PUBLIC_MANIFEST.md` 为准。
 
-本地域能力和内容项目会被 Git 忽略：
+本地个人数据资产默认放在 `storage/`，并会被 Git 忽略：
+
+- storage/
+
+旧版本地目录仍保持私有，仅作为兼容和迁移来源：
 
 - domains/
 - skills_local/
@@ -27,9 +31,9 @@
 ## 快速开始
 
 1. 克隆或复制本仓库。
-2. 使用 `templates/content_project/` 在 `content_projects/` 下创建本地项目。
-3. 开始内容任务前，先使用 `skills/common/context-router/` 选择上下文。
-4. 将真实生产内容保存在被忽略的本地目录中。
+2. 使用 `templates/storage/` 初始化本地 `storage/`。
+3. 安装或启用 `plugins/z-cdma-agent-kit/` 后，用 `z-cdma-start` 开始日常任务。
+4. 将真实生产内容保存在被忽略的 `storage/` 中。
 5. 发布前运行 `tools/validate-public-boundary.ps1`。
 
 ## 非目标
